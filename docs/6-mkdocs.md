@@ -1,5 +1,12 @@
 # Publier sur le Web
 
+
+Test d'inclusion avec le code
+```
+--8<-- "Inclus/test.md" 
+```
+--8<-- "Inclus/test.md"
+
 <!-- 
 Ce site est généré à partir du template <https://github.com/ericECmorlaix/simple_template_obsidian_mkdocs>, un simple modèle de dépôt GitHub pour publier des notes d'Obsidian via MkDocs avec le thème Material qui présente la marche à suivre et montre quelques solutions permettant plus ou moins la transition de la syntaxe d'Obsidian vers celle de MkDocs.
 
