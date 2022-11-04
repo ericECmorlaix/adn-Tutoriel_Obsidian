@@ -7,6 +7,8 @@
 > 
 > Yuval Noah Harari, Sapiens: A Brief History of Humankind
 
+## Introduction
+
 ![Logo]
 
 [**Markdown**][1] est un langage de description à balisage plus léger à coder que des balises HTML.  
@@ -45,6 +47,8 @@ Liste des liens pour l'introduction : -->
 
 >[!example]- Cliquer pour voir le code **MarkDown** qui produit le rendu ci-dessus
 > ```markdown
+> ## Introduction
+> 
 > ![Logo]
 >
 >[**Markdown**][1] est un langage de description à balisage plus léger à coder que des balises HTML.  
@@ -83,6 +87,7 @@ Liste des liens pour l'introduction : -->
 
 >[!example]- Cliquer pour comparer avec le code **HTML** qui produit le même affichage 
 >```HTML
+><h2>Introduction</h2>
 >
 ><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg"  title="Logo du langage MarkDown" alt="Logo du langage MarkDown">
 >
