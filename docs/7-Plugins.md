@@ -1,6 +1,0 @@
-# Autres Plugins
-
-A venir...
-
-
-

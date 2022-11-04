@@ -31,8 +31,8 @@ theme:
     # custom_dir: overrides #  
     font: false  # RGPD ; pas de fonte Google
     language: fr # français
-    logo: images/LogoIO.png # image qui apparait dans l'en tête à gauche du titre de la page 
-    favicon: images/LogoIO-Obsidian.png # image qui apparait dans l'onglet du navigateur avant le titre du site
+    logo: assets/LogoIO.png # image qui apparait dans l'en tête à gauche du titre de la page 
+    favicon: assets/LogoIO-Obsidian.png # image qui apparait dans l'onglet du navigateur avant le titre du site
     icon:
       # logo: fontawesome/solid/gem # icone qui apparait dans l'en tête à gauche du titre de la page
       # et qui est support du lien qui renvoie à la racine du site depuis toutes les pages

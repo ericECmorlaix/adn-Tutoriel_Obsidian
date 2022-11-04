@@ -24,7 +24,7 @@ Pour en savoir plus sur cette méthode et éventuellement en discuter, rendez-vo
 Le workflow pour se construire une base de connaissance en mode ZettelKasten peut se résumer ainsi :
 
 ![[WorkFlow_ZettelKasten.png]]
->
+
 >[!abstract] Le processus consiste donc à collecter des données au fil de l'eau :
 >- en ==captant toutes nos **idées**== (peut-être issues de brainstorming), nos tâches à faire (peut-être suite à une réunion de projet...) ==dans des **notes provisoires**== (ou temporaires, des brouillons) :
 >	-  toujours avoir quelque chose à portée de main avec lequel écrire pour capturer chaque idée qui vient à l'esprit (Siri sait aussi écrire pour nous),
@@ -33,7 +33,7 @@ Le workflow pour se construire une base de connaissance en mode ZettelKasten peu
 >- et en ==résumant nos **lectures de contenus**== au sens large (livres, articles, podcasts, films, vidéos, cours, discussions, réunions, etc...) avec nos propres mots ==dans des **notes littéraires**== :
 >	- noter ce qu'on ne veux pas oublier et ce qu'on pense pouvoir réutiliser par la suite,
 >	- être bref et extrêmement sélectif, ne pas simplement copier/coller mais toujours reformuler ;
->
+
 >[!abstract] On peut alors prendre le temps de ==fixer nos données dans des **notes permanentes**== :
 >  On les construit en explorant régulièrement nos notes temporaires et nos notes littéraires ou directement si notre schéma de pensée est assez clair. 
 >  
@@ -42,10 +42,10 @@ Le workflow pour se construire une base de connaissance en mode ZettelKasten peu
 > - en rédigeant une note pour chaque idée (principe d'atomicité), de façon à ce quelle soit lisible par un autre : faire des phrases complètes, citer les sources, faire des références et être synthétique,
 >
 > Il faut alors supprimer les notes éphémères inutiles, conserver les notes littéraires pour de futures références, et associer nos nouvelles notes permanentes à celles déjà contenues dans le coffre ZettelKasten.
-> 
+
 > [!abstract] Enfin, toutes ces ==notes rassemblées dans un même dossier== doivent être ==reliées entre elles== :
 > On utilise des liens internes (`[[lien]]`), des mots-clés `#tag` et encore d'autres métadonnées pour construire progressivement notre base numérique de connaissances organisée en réseau.
 > 
->Aussi, des Map of Content (MoC), ==notes contenant des liens== vers d'autres notes, structurées linéairement ou graphiquement (index de note, carte heuristique, dessin enrichi de liens, ...) et centrées sur un sujet, une question, un centre d'intérêt ou un projet en particulier, permettront, tel un routeur (hub), de naviguer plus facilement dans ce second cerveau numérique.
+>Aussi, des Map of Content (MoC), ==notes spéciales contenant surtout des liens== vers d'autres notes, structurées linéairement ou graphiquement (index de note, carte heuristique, dessin enrichi de liens, ...) et centrées sur un sujet, une question, un centre d'intérêt ou un projet en particulier, permettront, tel un routeur (hub), de naviguer plus facilement dans ce second cerveau numérique.
 
 
