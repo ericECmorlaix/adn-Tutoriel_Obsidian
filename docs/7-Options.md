@@ -1,4 +1,0 @@
-A venir...
-
-- Correcteur orthographique
-- 
