@@ -303,17 +303,10 @@ En fait, dans Obsidian, les fichiers <code>note.md</code> sont bien plus que du 
 >```markdown
 >- [ ] Une tâche de ma todo liste ;
 >- [x] Une autre tâche de ma todo liste ;
->    - [x] une sous tâche de ma todo liste ;
->    - [ ] une autre sous tâche de ma todo liste ;
+>      - [x] une sous tâche de ma todo liste ;
+>      - [ ] une autre sous tâche de ma todo liste ;
 >- [w] Encore une autre tâche de ma todo liste.
 >```
-
-- [ ] Une tâche de ma todo liste ;
-- [x] Une autre tâche de ma todo liste ;
-   - [x] une sous tâche de ma todo liste ;
-   - [ ] une autre sous tâche de ma todo liste ;
-- [w] Encore une autre tâche de ma todo liste.
-
 
 >[!abstract] On insère `[ ]` ou `[x]` devant chaque item d'une liste non ordonnée pour ajouter des cases à cocher.
 >Dans Obsidian,
