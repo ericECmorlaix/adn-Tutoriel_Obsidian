@@ -314,6 +314,27 @@ En fait, dans Obsidian, les fichiers <code>note.md</code> sont bien plus que du 
 >- marquer avec un `[x]` en mode édition, ou cocher le bouton radio en mode aperçu devant une tâche barre le texte de cet item, et s'il s'agit d'une tâche supérieure, cela raye toutes les tâches de sa sous-liste sans exception.
 >- les listes de taches sont particulièrement bien exploitées en [[4-Projets|gestion de projet]]...
 
+### [Citation]()
+
+### [Trait horizontal](https://help.obsidian.md/How+to/Format+your+notes#Horizontal+Bar)
+
+>[!example]+ Copier/coller le code suivant dans Obsidian et observer le résultat en mode aperçu
+>```markdown
+>Une série d'au moins trois `*`,
+>***
+>ou trois `_`,
+>___
+>ou trois `-` après un saut de ligne,
+>
+>---
+>trace une ligne de séparation.
+
+>[!warning] Trois `-` peuvent aussi être interprété pour marquer un titre de niveau 2 ou, comme on le verra plus loin, pour définir un [séparateur de diapositives]() ou encore un [front matter de metadonnées]() 
+
+Toto***
+
+---
+
 A venir...
 
 Mises en bouche  en attendant d'autres développements mais qui peut être suffisante, surtout associé au "Coffre de test" que l'on peut ouvrir à partir du bouton d'aide en bas à gauche de l'interface d'Obsidian :
@@ -364,3 +385,5 @@ Mais il a quelques spécificités de syntaxes supplémentaires :
 -   `aliases: [Alias1, Alias2]` : Créer un alias (à ajouter dans le frontmatter)
 -   `- [ ] Task list` : Créer une tâche
 -   `- [x] Task list` : Cocher une tâche
+
+
