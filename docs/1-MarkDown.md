@@ -28,9 +28,11 @@ Mais c'est surtout le langage que nous utiliserons pour rédiger du texte enrich
 > Vous avez toujours la possibilité de coder en HTML dans les `note.md` d'Obsidian comme dans les cellules MarkDown d'un [`notebook.ipynb` de Jupyter][bn-html]...
 >
 > Par exemple, pour écrire des commentaires dans un code en MarkDown on peut utiliser la syntaxe HTML : `<!-- mon commentaire -->`
+>> <!-- Ceci est un commentaire qui ne sera donc pas affiché -->
 
-<!-- Ceci est un commentaire qui ne sera donc pas affiché
-Liste des liens pour l'introduction : -->
+En fait, dans Obsidian, les fichiers `note.md` sont bien plus que du simple texte destiné à produire un affichage enrichi, ils constituent aussi une véritable base de données dans laquelle les marqueur de MarkDown facilitent la recherche d'informations...
+
+<!-- Liste des liens pour l'introduction : --> 
 
 [1]: https://fr.wikipedia.org/wiki/Markdown "Page Markdown sur Wikipedia" 
 [GitHub]: https://guides.github.com/features/mastering-markdown/ "Guide MarkDown de GitHub"
@@ -68,9 +70,11 @@ Liste des liens pour l'introduction : -->
 >> Vous avez toujours la possibilité de coder en HTML dans les `note.md` d'Obsidian comme dans les cellules MarkDown d'un [`notebook.ipynb` de Jupyter][bn-html]...
 >>
 >> Par exemple, pour écrire des commentaires dans un code en MarkDown on peut utiliser la syntaxe HTML : `<!-- mon commentaire -->`
+>> <!-- Ceci est un commentaire qui ne sera donc pas affiché -->
 >
-> <!-- Ceci est un commentaire qui ne sera donc pas affiché
-> Liste des liens pour l'introduction : --> 
+>En fait, dans Obsidian, les fichiers `note.md` sont bien plus que du simple texte destiné à produire un affichage enrichi, ils constituent aussi une véritable base de données dans laquelle les marqueur de MarkDown facilitent la recherche d'informations...
+>
+><!-- Liste des liens pour l'introduction : --> 
 >
 > [1]: https://fr.wikipedia.org/wiki/Markdown "Page Markdown sur Wikipedia" 
 > [GitHub]: https://guides.github.com/features/mastering-markdown/ "Guide MarkDown de GitHub"
@@ -139,13 +143,183 @@ Liste des liens pour l'introduction : -->
 >    <p>
 >        Par exemple, pour écrire des commentaires dans un code en MarkDown
 >        on utilise la syntaxe HTML : <code>&lt;!-- mon commentaire --&gt;</code>
->    </p>  
+>    </p>
+>    <!-- Ceci est un commentaire qui ne sera donc pas affiché -->  
 ></blockquote>
-><!-- Ceci est un commentaire qui ne sera donc pas affiché -->
+><p>
+>En fait, dans Obsidian, les fichiers <code>note.md</code> sont bien plus que du simple texte destiné à produire un affichage enrichi, ils constituent aussi une véritable base de données dans laquelle les marqueur de MarkDown facilitent la recherche d'informations...
+></p>
 >```
 
->[!success]- Copier/coller les codes MarkDown et HTML ci-dessus dans une note d'Obsidian pour vérifier qu'ils produisent le même affichage...
+>[!success]- Copier/coller les codes MarkDown et HTML ci-dessus dans une note d'Obsidian pour vérifier qu'ils produisent bien le même affichage...
 > On observe que pour un même résultat affiché, le texte contenu dans le code MarkDown est nettement plus lisible que celui perdu dans le balisage HTML surtout lorsque, comme ici, on rejette les URL des liens avec des `[références]` en dessous du texte.
+
+<h2>Introduction</h2>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg"  title="Logo du langage MarkDown" alt="Logo du langage MarkDown">
+
+<p>
+  <a href="https://fr.wikipedia.org/wiki/Markdown" target="_blank" title="Page Markdown sur Wikipedia"><strong>Markdown</strong></a>
+  est un langage de description à balisage plus léger à coder que des balises HTML.
+   <br>
+   Son code est plus lisible dans l'éditeur,
+   plus pratique et rapide pour rédiger et publier un document sur le Web.
+</p>
+
+<p>
+   Le principal défaut de MarkDown est son manque d'unification : 
+   il existe plusieurs versions de ce langage qui,
+   à partir d'une syntaxe de base commune,
+   possèdent d'autres éléments additionnels souvent très spécifiques...  
+</p>
+<p>
+   Cependant il est de plus en plus utilisé :
+   <ul>
+       <li>
+           incontournable sur <a href="https://guides.github.com/features/mastering-markdown/" target="_blank" title="Guide MarkDown de GitHub">GitHub</a>,
+       </li>
+       <li>
+           le site de partage d'informations <a href="https://www.reddit.com/wiki/markdown" target="_blank" title="Guide MarkDown de Reddit">Reddit</a>,
+       </li>
+       <li>
+           les éditeurs en ligne comme <a href="https://stackedit.io/" target="_blank" title="Page de l'éditeur MarkDown StackEdit">StackEdit</a> ou <a href="https://demo.hedgedoc.org/features?both" target="_blank" title="Page de demonstration du Markdown de HedgeDoc">HedgeDoc</a> qui est lui collaboratif,,
+       </li>
+       <li>
+           les forums <a href="https://discord.gg/obsidianmd" target="_blank" title="Discord d'Obsidian">Discord</a>,
+           <a href="https://stackoverflow.com/editing-help" target="_blank" title="Aide Markdown de Stack Overflow">Stack Overflow</a> et bien sur le <a href="https://forum.obsidian.md/" target="_blank" title="Forum d’Obsodian">forum d’Obsodian</a>…
+       </li>
+   </ul>
+   Mais c'est surtout le langage que nous utiliserons pour rédiger du texte enrichi
+   dans nos <a href="https://nbviewer.org/urls/ericecmorlaix.github.io/bn/MarkDown-Le_BN_pour_rapporter.ipynb" target="_blank" title="Notebook d'initiation au Markdown de Jupyter"><code>notebook.ipynd</code> Jupyter</a> 
+   et nos <code>note.md</code> avec le MarkDown d’Obsidian tel que présenté ici.
+</p>
+<blockquote>
+   <p>
+       <strong>Remarque</strong> :
+   </p>
+   <p>
+       Vous avez toujours la possibilité de coder en HTML
+       dans les <code>note.md</code> d'Obsidian,
+       comme dans les cellules MarkDown d'un 
+       <a href="https://nbviewer.org/urls/ericecmorlaix.github.io/bn/HTML-Le_BN_pour_multimedier.ipynb" target="_blank" title="Notebook d'initiation au HTML de Jupyter"><code>notebook.ipynd</code> Jupyter</a>...
+   </p>
+   <p>
+       Par exemple, pour écrire des commentaires dans un code en MarkDown
+       on utilise la syntaxe HTML : <code>&lt;!-- mon commentaire --&gt;</code>
+   </p>
+   <!-- Ceci est un commentaire qui ne sera donc pas affiché -->  
+</blockquote>
+<p>
+En fait, dans Obsidian, les fichiers <code>note.md</code> sont bien plus que du simple texte destiné à produire un affichage enrichi, ils constituent aussi une véritable base de données dans laquelle les marqueur de MarkDown facilitent la recherche d'informations...
+</p>
+
+
+
+
+## [Les Titres](https://help.obsidian.md/How+to/Format+your+notes#Headers)
+
+>[!example]+ Copier/coller le code suivant dans Obsidian et observer le résultat en mode aperçu
+>```markdown
+># Titre de niveau 1
+>## Titre de niveau 2
+>### Titre de niveau 3
+>#### Titre de niveau 4
+>##### Titre de niveau 5
+>###### Titre de niveau 6
+>####### Il n'y a pas de titre de niveau 7
+>```
+
+>[!abstract] Un double `##` en markdown correspond aux balises `<h2></h2>` en HTML, etc...
+
+## Corps de texte
+
+[Emphase](https://help.obsidian.md/How+to/Format+your+notes#Emphasis), [Barré](https://help.obsidian.md/How+to/Format+your+notes#Strikethrough), [Surligné](https://help.obsidian.md/How+to/Format+your+notes#Highlighting) [Code](https://help.obsidian.md/How+to/Format+your+notes#Code)
+
+>[!example]+ Copier/coller le code suivant dans Obsidian et observer le résultat en mode aperçu
+>```markdown
+>Ce texte                s'affiche           avec des retours à la ligne,  
+>dans un seul            et                  même paragraphe,  
+>mais les espaces      laissés en trop         sont supprimés...
+>
+>Pour former des paragraphes séparés, il faut laisser une ligne vide entre eux.
+>
+>On peut obtenir du _texte_ avec *simple emphase* rendu en *italique*,
+>  du __texte__ avec **forte emphase** rendu en **Gras**,
+>   du **_Texte_** à la fois en **gras** et en *italique*,
+>    du `code source` rendu en caractères `monospaces`,
+>     du ~~texte barré~~  rendu avec une ligne en travers du texte.     
+>      On peut aussi ==surligné==.
+>      
+>```
+ 
+>[!question]- Activer les **"sauts de lignes stricts"** dans les options de l'éditeur d'Obsidian. Que se passe-t-il ?
+> - Les sauts de lignes simples ne provoquent pas de retours à la ligne dans le dernier paragraphe ;
+> - sauf si on ajoute deux espaces à la fin d'une ligne avant de faire un retour à la ligne comme dans le premier paragraphe.
+
+>[!abstract] Une ligne vide en MarkDown fait changer de paragraphe qui correspond aux balises `<p></p>` en HTML.
+
+>[!abstract] Un retour à la ligne simple en MarkDown (ou avec deux espaces si "sauts de lignes stricts") correspond à une balise `<br>` en HTML.
+
+## Les listes
+
+### [Liste à puces](https://help.obsidian.md/How+to/Format+your+notes#Unnumbered+lists)
+
+>[!example]+ Copier/coller le code suivant dans Obsidian et observer le résultat en mode aperçu
+>```markdown
+>* Un élement de liste ;
+>Une précision concernant cet élément...
+>- Un autre élément de liste ;
+>- Un second élément de cette liste ;
+>    * Un élément de sous-liste ;
+>    * Un autre élément de sous-liste ;
+>	    * Un élément de sous-sous-liste ;
+>+ Encore un autre élément de liste.
+>```
+
+>[!abstract] On place devant chaque item un caractère marqueur `-`, `+` ou `*`, suivi d'au moins une espace
+> - Une tabulation (ou 4 espaces) laissées devant le marqueur d'item crée une sous-liste ; 
+> + Dans Obsidian :
+> 	- Il n'est pas nécessaire de commencer par sauter une ligne ;
+> 	-  un changement de marqueur d'item de liste entre  `-`, `+` ou `*` en MarkDown, balises `<li></li>` en HTML, provoque un changement de liste soit la création d'une nouvelle liste non ordonnée,  balises `<ul></ul>` en HTML.
+
+### [Liste ordonnée](https://help.obsidian.md/How+to/Format+your+notes#Numbered+Lists)
+
+>[!example]+ Copier/coller le code suivant dans Obsidian et observer le résultat en mode aperçu
+>```markdown
+>4. Le quatrième élément de ma liste ;  
+>Une précision concernant cet élément...
+>1. Le cinquième élément de ma liste ;
+>    1. Le premier élément de ma sous-liste ;
+>    72. Le second élément de ma sous-liste ;
+>1024. Le sixième élément de ma liste.
+>```
+
+>[!abstract] On procède de même, mais en précédant chaque item d'un nombre suivi d'un `.`
+> Dans Obsidian la numérotation démarre à partir du nombre indiqué devant le premier item listé mais, afin de rompre avec l'élément précédent, il faut sauter une ligne avant de commencer un liste ainsi ordonnée, balises `<ol></ol>` en HTML.
+
+### [Liste de taches](https://help.obsidian.md/How+to/Format+your+notes#Task+list)
+
+>[!example]+ Copier/coller le code suivant dans Obsidian et observer le résultat en mode aperçu
+>```markdown
+>- [ ] Une tâche de ma todo liste ;
+>- [x] Une autre tâche de ma todo liste ;
+>    - [x] une sous tâche de ma todo liste ;
+>    - [ ] une autre sous tâche de ma todo liste ;
+>- [w] Encore une autre tâche de ma todo liste.
+>```
+
+- [ ] Une tâche de ma todo liste ;
+- [x] Une autre tâche de ma todo liste ;
+   - [x] une sous tâche de ma todo liste ;
+   - [ ] une autre sous tâche de ma todo liste ;
+- [w] Encore une autre tâche de ma todo liste.
+
+
+>[!abstract] On insère `[ ]` ou `[x]` devant chaque item d'une liste non ordonnée pour ajouter des cases à cocher.
+>Dans Obsidian,
+>- marquer avec un `[w]` en mode édition, ou tout autre caractère différent d'une espace ou d'un `x` coche seulement le bouton radio en mode aperçu ;
+>- marquer avec un `[x]` en mode édition, ou cocher le bouton radio en mode aperçu devant une tâche barre le texte de cet item, et s'il s'agit d'une tâche supérieure, cela raye toutes les tâches de sa sous-liste sans exception.
+>- les listes de taches sont particulièrement bien exploitées en [[4-Projets|gestion de projet]]...
 
 A venir...
 

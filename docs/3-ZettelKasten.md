@@ -1,5 +1,15 @@
 # Gestion de connaissances
 
+**[[0-Prise_en_main|Obsidian]]** est une application logicielle de prise de notes en mode [[3-ZettelKasten#La méthode ZettelKasten (ZK)|Zettelkasten]] (coffre) qui permet de gérer l'accumulation de vos connaissances ([[3-ZettelKasten#Personnal Knowledge Management (PKM)|P.K.M.]]) pour construire progressivement votre jardin numérique...
+
+>[!quote] Citation
+> Voltaire, Candide - "Il faut cultiver notre jardin"
+> [Sur la fameuse leçon morale de _Candide_ de Voltaire "_Il faut cultiver notre jardin_"](http://www.teheran.ir/spip.php?article1843#forum27642)
+
+> [!example]- Comme par exemple le [Digital Garden de Joel Hook](https://joelhooks.com/digital-garden).
+> >**Extrait :**
+> >_"Just like plants in the garden I've got posts that are in various stages of growth and nurturing. Some might wither and die, and others (like this one you are reading) will flourish and provide a source of continued for the gardener and folks in community that visit 👋"_
+
 ## Personnal Knowledge Management (PKM) 
 
 > _"La **gestion des connaissances personnelles** ((en) Personal knowledge management ou PKM) est l'ensemble des procédés qu'un individu met en œuvre pour rassembler, rechercher, classifier et partager la connaissance au quotidien[1](https://fr.wikipedia.org/wiki/Gestion_des_connaissances_personnelles#cite_note-1), ainsi que la manière dont ces processus aident son travail[2](https://fr.wikipedia.org/wiki/Gestion_des_connaissances_personnelles#cite_note-2). Ce concept est associé à l'idée selon laquelle le [travailleur de la connaissance](https://fr.wikipedia.org/wiki/Travailleur_de_la_connaissance "Travailleur de la connaissance") doit être acteur de son propre apprentissage[3](https://fr.wikipedia.org/wiki/Gestion_des_connaissances_personnelles#cite_note-3). Enfin il s'agit d'une approche [bottom-up](https://fr.wikipedia.org/wiki/Bottom-up "Bottom-up") de la [gestion des connaissances](https://fr.wikipedia.org/wiki/Gestion_des_connaissances "Gestion des connaissances"), qui s'oppose à une pratique traditionnelle plus [top-down](https://fr.wikipedia.org/wiki/Top-down "Top-down")[4](https://fr.wikipedia.org/wiki/Gestion_des_connaissances_personnelles#cite_note-4)."_
