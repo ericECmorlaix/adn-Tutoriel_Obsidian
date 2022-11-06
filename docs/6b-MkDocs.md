@@ -47,10 +47,11 @@ Ou identifier vous (Sign in) si vous avez déjà un compte :
 > Nous allons bientôt voir que nous aurions tout aussi bien pu éditer ce fichier `README.md` dans Obsidian mais, cependant, cela se limitera aux fichiers ayant l'extension `.md`.
 > Il est donc intéressant de savoir faire cela directement dans GitHub pour éditer depuis n'importe quel navigateur les fichiers MarkDown mais aussi d'autres...
 
+#### Déployer votre site
+
 > [!success] Au bout d'un moment, si tout se passe bien, le "bot" de GitHub devrait générer à partir de votre branche `main`, une seconde branche nommée `gh-pages` :
 ><img class="center" src="https://ericecmorlaix.github.io/img/GitHub07bis.png" alt="branche" width=40%>
 
-#### Déployer votre site
 7. **Cliquer** sur les onglets `Settings` (1) puis `Pages` (2), **sélectionner** la branche `gh-pages` (3) enfin **cliquer** sur le bouton `Save` (4) :
  <img class="center" src="https://ericecmorlaix.github.io/img/GitHub08bis.png" alt="Déploiement" width=90%>
 
