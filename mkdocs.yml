@@ -122,6 +122,7 @@ plugins:
   - exclude: # https://github.com/apenwarr/mkdocs-exclude
       glob:
         - assets/Escalidraw/*.md # Pour exclure les fichiers sources Escalidraw type dessin.md de la construction du site.
+        - assets/test-diaporama/*.md # Pour exclure les fichiers sources Escalidraw type dessin.md de la construction du site.
       # regex:
       #   - '.*\.(tmp|bin|tar)$'
   

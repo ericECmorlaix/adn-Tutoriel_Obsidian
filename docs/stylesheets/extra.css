@@ -28,3 +28,8 @@
     -webkit-mask-image: var(--md-admonition-icon--adn);
             mask-image: var(--md-admonition-icon--adn);
   }
+
+  .center {
+    display: block;
+    margin: 0 auto;
+}
