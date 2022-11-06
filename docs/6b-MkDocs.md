@@ -49,7 +49,7 @@ Ou identifier vous (Sign in) si vous avez déjà un compte :
 
 #### Déployer votre site
 
-> [!success] Au bout d'un moment, si tout se passe bien, le "bot" de GitHub devrait générer à partir de votre branche `main`, une seconde branche nommée `gh-pages` :
+> [!success] Normalement, le "bot" de GitHub doit avoir généré à partir de votre branche `main`, une seconde branche nommée `gh-pages` :
 ><img class="center" src="https://ericecmorlaix.github.io/img/GitHub07bis.png" alt="branche" width=40%>
 
 7. **Cliquer** sur les onglets `Settings` (1) puis `Pages` (2), **sélectionner** la branche `gh-pages` (3) enfin **cliquer** sur le bouton `Save` (4) :
@@ -57,12 +57,11 @@ Ou identifier vous (Sign in) si vous avez déjà un compte :
 
 > [!success]  Au bout d'un moment, si tout se passe bien, votre site devrait être visible sur le web à une adresse au format <https://votre-pseudo-github.github.io/nom-depot/>...
 
-#### Configurer de votre site
+#### Configurer votre site
 
-Les fichiers de configuration du site `mkdocs.yml` et `ci.yml` sont écrits en [YAML](https://fr.wikipedia.org/wiki/YAML), un langage avec une syntaxe la plus lisible possible par des humains pour représenter des données.
+Les fichiers de configuration du site `mkdocs.yml` et `ci.yml` sont écrits en [YAML](https://fr.wikipedia.org/wiki/YAML), un langage avec une syntaxe la plus lisible possible par des humains pour représenter des données. Obsidian ne permet pas d'éditer ces fichiers...
 
-Obsidian ne permet pas d'éditer ces fichiers. Il vous faudra les ouvrir dans votre éditeur de texte favori ou directement les éditer dans GitHub pour les modifier afin de les personnaliser :
-
+8. **Modifier** dans GitHub ces fichiers de configuration pour les personnaliser :
 - Sauf à vouloir ajouter de nouvelles fonctionnalités, le fichier [`CI.yml`](https://ericecmorlaix.github.io/adn-Tutoriel_site_web/Yaml/#le-fichier-ciyml) peut rester inchangé ;
 - En revanche, il sera nécessaire de modifier le fichier `mkdocs.yml` en s'aidant des explications laissées en commentaires ou encore de celles ce [tutoriel de configuration d'un site web avec MkDocs](https://ericecmorlaix.github.io/adn-Tutoriel_site_web/Yaml/#le-fichier-mkdocsyml)
 
@@ -72,7 +71,7 @@ Le texte en MarkDown de la page `index.md` du dossier `/docs` devient la page d'
 
 Les dossiers présents dans `/docs` apparaissent comme sections principales de la barre de navigation. De même pour le titre de niveau 1 `# Accueil` écrit au début du fichier `index.md`.
 
-Chaque note, `fichier.md` écrit en MarkDown, devient une nouvelle page du site dans leur section respective. Le noms de ces fichiers sont visible dans la barre d'URL. Les titres et sous-titres de la table des matières apparaissent dans des sous-sections d'un menu secondaire.
+Chaque note, `fichier.md` écrit en MarkDown, devient une nouvelle page du site dans leur section respective. Les noms de ces fichiers sont visibles dans la barre d'URL. Les titres et sous-titres de la table des matières apparaissent dans des sous-sections d'un menu secondaire.
 
 > En l'absence de titre de niveau 1 au début d'une note, c'est le nom du fichier qui apparaitra en tête de la sous-section.
 
@@ -108,15 +107,14 @@ Il est donc préférable d'attribuer aux dossiers et fichiers des noms significa
 1. **Editer** le fichier MarkDown `index.md` du dossier `/docs` pour qu'il produise la page d'accueil en HTML que vous souhaitez pour votre site.
 1. **Glisser/déposer** toutes les notes que vous souhaitez publier et leurs pièces jointes dans le dossier `docs` ;
 1. Depuis la palette de commande, **saisir** le mot `Source` puis **choisir** `Obsidian Git: Open source control view` ;
-1. Appuyer sur les + pour mettre sur l'étagère d'expédition les modification que vous voulez publier.
-1. **Commiter** puis **pousser** les changements avec Obsidian Git ;
+<img class="center" src="https://ericecmorlaix.github.io/adn-Tutoriel_Obsidian/assets/source_control_view.jpg" alt="source_control_view" width=60%>
+1. Appuyer sur les `+` (1) en face des fichiers pour ajouter les modifications que vous voulez publier à ce stade.
+1. **Commiter** (2) puis **pousser** (3) les changements depuis Obsidian vers GitHub ;
+1. GitHub Action va alors prendre en charge automatiquement la conversion de vos fichiers MarkDown d'Obsidian vers [MkDocs](https://www.mkdocs.org/) avec le thème [Material](https://squidfunk.github.io/mkdocs-material/) pour générer les fichiers au format HTML de votre site Web dans une branche `gh-page` ;
 
-<!--
-3. GitHub Action va alors prendre en charge automatiquement la conversion de vos fichiers MarkDown d'Obsidian vers [MkDocs](https://www.mkdocs.org/) avec le thème [Material](https://squidfunk.github.io/mkdocs-material/) pour générer les fichiers au format HTML de votre site Web dans une branche `gh-page` ;
-7. Depuis la page de votre dépôt sur GitHub, **Cliquer** sur les onglets `Settings` (1) puis `Pages` (2), **sélectionner** la branche `gh-pages` (3) enfin **cliquer** sur le bouton `Save` (4) :
-![](gh-pages.png)
-> Au bout d'un moment, si tout se passe bien, votre site devrait être visible sur le web à l'adresse <https://votre-pseudo-github.github.io/nom-depot/>
-
+>[!success] Au bout d'un moment, si tout se passe bien, votre site devrait être visible sur le web à l'adresse <https://votre-pseudo-github.github.io/nom-depot/> avec vos dernières modifications.
+><img class="center" src="https://ericecmorlaix.github.io/adn-Tutoriel_Obsidian/assets/GitHub_Pages_Active.png" alt="GitHub_Pages_Active" width=40%>
+>
 
 
 1. **Cloner** le dépôt que vous venez de générer dans votre dossier/coffre d'Obsidian.  Soit avec le plugin Obsidian Git installé et activé dans votre coffre, ou directement en ligne de commande : 
