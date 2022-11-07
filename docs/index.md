@@ -15,3 +15,7 @@ Hormis son principal défaut qui est d'être propriétaire, Obsidian offre de tr
 - Vous maitrisez le stockage de vos données, ce qui, combiné à l'interopérabilité du langage MarkDown, les protège durablement ;
 - Vous personnalisez vos [[7-Options_Plugins#Options|options]] comme votre thème, et vous organisez l'interface selon votre travail du moment ;
 - Véritable couteau suisse, vous étendez les fonctionnalités logicielles grâce au [[7-Options_Plugins#Modules|plugins]], pour répondre à tous [[9-Autres|vos besoins]], …, **sauf celui de faire le café !**
+
+>[!quote]- [Emowe](https://www.youtube.com/c/EmoweAprendizaje) Un tour d'horizon des possibles en images avec quelques commentaires en 🇪🇸...
+><center><figure><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zV0pAGd3yMs?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure></center>
+
