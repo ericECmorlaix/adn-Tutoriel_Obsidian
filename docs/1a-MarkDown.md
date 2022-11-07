@@ -7,6 +7,8 @@
 > 
 > Yuval Noah Harari, Sapiens: A Brief History of Humankind
 
+> [!note] J'emprunte ici l'usage de cette citation à [Yann HOURY](https://publish.obsidian.md/yannhoury/Accueil) que je remercie vivement de m'avoir fait découvrir [Obsidian](https://publish.obsidian.md/yannhoury/Documentation/Obsidian/Obsidian), aussi je vous invite avant de vous embarquer dans mes explications techniques, à lire son explication du [Pourquoi écrire en Markdown ?](https://publish.obsidian.md/yannhoury/Documentation/Markdown/Pourquoi+%C3%A9crire+en+Markdown)
+
 ## Introduction
 
 ![Logo]
