@@ -145,8 +145,8 @@ Il est donc préférable d'attribuer aux dossiers et fichiers des noms significa
 1. **Glisser/déposer** toutes les notes que vous souhaitez publier et leurs pièces jointes dans le dossier `docs` ;
 1. Depuis la palette de commande, **saisir** le mot `Source` puis **choisir** `Obsidian Git: Open source control view` ;
 <img class="center" src="https://ericecmorlaix.github.io/adn-Tutoriel_Obsidian/assets/source_control_view.jpg" alt="source_control_view" width=50%>
-1. Appuyer sur les `+` (1) en face des fichiers pour ajouter les modifications que vous voulez publier à ce stade.
-1. **Commiter** (2) puis **pousser** (3) les changements depuis Obsidian vers GitHub ;
+1. Appuyer sur les `+`  en face des fichiers ou :luc_plus_circle: (1) pour ajouter les modifications que vous voulez publier à ce stade.
+1. **Commiter** :obs_checkmark: (2) puis **pousser** :luc_share: (3) les changements depuis Obsidian vers GitHub ;
 1. GitHub Action va alors prendre en charge automatiquement la conversion de vos fichiers MarkDown d'Obsidian vers [MkDocs](https://www.mkdocs.org/) avec le thème [Material](https://squidfunk.github.io/mkdocs-material/) pour générer les fichiers au format HTML de votre site Web dans une branche `gh-page` ;
 
 >[!success] Au bout d'un moment, si tout se passe bien, votre site devrait être visible sur le web à l'adresse <https://votre-pseudo-github.github.io/nom-depot/> avec vos dernières modifications.
