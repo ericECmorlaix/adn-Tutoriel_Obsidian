@@ -285,6 +285,8 @@ A venir...
 
 ### [Citation](https://help.obsidian.md/How+to/Format+your+notes#Blockquotes)
 
+
+
 ### [Admonitions](https://help.obsidian.md/How+to/Format+your+notes#Callouts)
 
 #### [Code en ligne](https://help.obsidian.md/How+to/Format+your+notes#Inline+code)
