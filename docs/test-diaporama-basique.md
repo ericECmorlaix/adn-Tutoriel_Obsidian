@@ -27,6 +27,5 @@ pour formater le texte :
 1. On met `---` entre deux diapositives ;  
 2) Et, **c'est tout !**
 >[!success] Suffisant pour un :
-> &emsp;&emsp; ![[PechaKucha-min.jpg|200]]
-> &emsp;&emsp;&nbsp;&nbsp; [Pecha Kucha](https://fr.wikipedia.org/wiki/Pecha_Kucha) 
+>![[PechaKucha-min.jpg|200]] [Pecha Kucha](https://fr.wikipedia.org/wiki/Pecha_Kucha) 
 
