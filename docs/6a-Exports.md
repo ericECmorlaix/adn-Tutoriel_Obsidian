@@ -16,12 +16,12 @@ Obsidian permet de réaliser très rapidement un diaporama à partir d'un simple
 
 Pour réaliser une présentation très simple, il faut activer dans les paramètres d'Obsidian le plugin principal `Diapositives`et faire des traits horizontaux avec trois `---` pour séparer les diapositives. Il suffit alors depuis la palette de commande de saisir le mot `Diapo` puis de  choisir `Diapositives: Démarrer la présentation` ;
 
->[!quote]- [João - Le MindMappeur](https://www.youtube.com/c/LeMindMappeur)
-><center><figure><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/25mDwXZgwTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe></figure></center>
-
->[!failure] Obsidian n'offre pas d'export vers d'autre format de ses diaporamas basiques.
+>[!failure] Obsidian n'offre pas de possibilité d'export de ses diaporamas basiques vers d'autre format.
 
 >[!tip] Sur iPad, il suffit d'enregistrer l'écran lors d'une présentation pour produire une vidéo avec ou sans commentaire sonore...
+
+>[!quote]- [João - Le MindMappeur](https://www.youtube.com/c/LeMindMappeur)
+><center><figure><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/25mDwXZgwTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe></figure></center>
 
 ### [Diaporama avancé](https://mszturc.github.io/obsidian-advanced-slides/)
 
