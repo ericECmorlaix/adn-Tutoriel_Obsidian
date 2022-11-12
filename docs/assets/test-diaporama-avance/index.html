@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="plugin/highlight/monokai.css" />
 	<link rel="stylesheet" href="css/layout.css" />
 	<link rel="stylesheet" href="plugin/customcontrols/style.css">
+	<link rel="stylesheet" href="plugin/chalkboard/style.css">
 
+	<link rel="stylesheet" href="plugin/reveal-pointer/pointer.css" />
 
 
     <script defer src="dist/fontawesome/all.min.js"></script>
@@ -113,15 +115,15 @@ pour formater le texte :
 </div>
 <div class="callout-title-inner">
 
-Warning
+On peut mettre des [avertissements](https://mszturc.github.io/obsidian-advanced-slides/basic-syntax/callouts/)
 
 </div>
 </div>
 <div class="callout-content">
 
-- &shy;<!-- .element: class="fragment" data-fragment-index="4" -->Mais avec des sauts de lignes stricts ;
+- &shy;<!-- .element: class="fragment" data-fragment-index="4" -->inclinés,
 
-- &shy;<!-- .element: class="fragment" data-fragment-index="5" -->et des boites d'avertissement sans titre.
+- &shy;<!-- .element: class="fragment" data-fragment-index="5" -->mais pas imbriqués ;
 
 </div>
 </div>
@@ -168,6 +170,9 @@ et
 	<script src="plugin/chart/plugin.js"></script>
 	<script src="plugin/menu/menu.js"></script>
 	<script src="plugin/customcontrols/plugin.js"></script>
+	<script src="plugin/chalkboard/plugin.js"></script>
+	<script src="plugin/reveal-pointer/pointer.js"></script>
+	<script src="plugin/elapsed-time-bar/elapsed-time-bar.js"></script>
 
     <script>
       function extend() {
@@ -224,6 +229,9 @@ et
 		  RevealChart,
 		  RevealCustomControls,
 		  RevealMenu,
+	      RevealPointer,
+		  RevealChalkboard, 
+		  ElapsedTimeBar
         ],
 
 
@@ -246,6 +254,19 @@ et
 
 		customcontrols: {
 			controls: [
+				{id: 'toggle-overview',
+				title: 'Toggle overview (O)',
+				icon: '<i class="fa fa-th"></i>',
+				action: 'Reveal.toggleOverview();'
+				},
+				{ icon: '<i class="fa fa-pen-square"></i>',
+				title: 'Toggle chalkboard (B)',
+				action: 'RevealChalkboard.toggleChalkboard();'
+				},
+				{ icon: '<i class="fa fa-pen"></i>',
+				title: 'Toggle notes canvas (C)',
+				action: 'RevealChalkboard.toggleNotesCanvas();'
+				},
 			]
 		},
 		menu: {
@@ -256,7 +277,7 @@ et
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {"width":960,"height":700,"margin":0.04,"controls":true,"progress":true,"slideNumber":false,"transition":"convex","transitionSpeed":"normal"}, queryOptions);
+      var options = extend(defaultOptions, {"width":960,"height":700,"margin":0.04,"controls":true,"progress":true,"slideNumber":true,"transition":"convex","transitionSpeed":"normal"}, queryOptions);
     </script>
 
     <script>
