@@ -2,8 +2,23 @@
 
 A venir...
 
-## Pdf & Cie
+## PDF & Cie
 
+Obsidian peut nativement exporter en `note.pdf` un fichier Markdown `note.md`.
+
+Depuis la palette de commande, saisir `pdf` puis choisir `Exporter en PDF`.
+Dans la fenêtre qui s'ouvre, régler les paramètres puis cliquer sur le bouton `Exporter au format PDF`.
+![[Exporter_en_PDF.png]]
+Choisir le nom et l'emplacement pour enregistrer votre PDF et vérifier si le résultat convient...
+
+>[!question]- Comment ajouter des sauts de page ?
+>Pour ajouter des sauts de page, une solution consiste à insérer, à l'endroit où vous souhaitez changer de page dans votre sortie PDF, le bout de code HTML suivant  en laissant un saut de ligne avant et après.
+>```html
+>
+><div style="page-break-after: always;"></div>
+>
+>```
+>>Si vous pensez avoir besoin d'insérer ce bout de code régulièrement, c'est l'occasion de faire un [[7-Options_Plugins#Snippets|Snippet]]...
 
 ---
 ## Diaporama
@@ -66,7 +81,7 @@ Pour réaliser une présentation très simple, il faut activer dans les paramèt
 
 ### [Diaporama avancé](https://mszturc.github.io/obsidian-advanced-slides/)
 
-Pour réaliser une présentation plus évoluée avec beaucoup plus de fonctionnalités, il faut activer dans les paramètres d'Obsidian le modules complémentaire `obsidian-advanced-slides` (cf : [la documentation du plugin]())
+Pour réaliser une présentation plus évoluée avec beaucoup plus de fonctionnalités, il faut activer dans les paramètres d'Obsidian le modules complémentaire `obsidian-advanced-slides` (cf : [la documentation du plugin](https://mszturc.github.io/obsidian-advanced-slides/))
 
 >[!example]- Exemple de code MarkDown pour tester
 >````markdown
@@ -129,7 +144,6 @@ On peut alors exporter la présentation au format pdf mais aussi en HTML ce qui 
 Obsidian propose une solution payante, [Obsidian Sync](https://help.obsidian.md/Obsidian+Sync/Introduction+to+Obsidian+Sync) pour synchroniser les données d'un coffre entre différents appareils. Cependant, il est aussi possible de le faire différemment... 
 
 ### [iCloud](https://help.obsidian.md/Getting+started/Sync+your+notes+across+devices#iCloud+Drive)
-
 
 
 ### GitHub
