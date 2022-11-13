@@ -59,9 +59,10 @@ Pour insérer l'affichage d'une image disponible sur le web on utilise le code M
 ### Images du coffre
 Pour insérer l'affichage d'une image disponible dans le coffre d'Obsidian, on utilise le code MarkDown spécifique d'un lien interne, avec un `!` devant :
 ```md
-![texte alternatif](adresse "infobulle")
+![[nom_fichier_image]]
 ```
 
+A venir...
 
 >[!info]- En ligne ou en bloc
 
