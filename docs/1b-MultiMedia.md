@@ -51,17 +51,32 @@ Pour insérer l'affichage d'une image disponible sur le web on utilise le code M
 ```
 - L'infobulle optionnelle s'affichera au survol de l'image.
 - Il est important de bien choisir le [texte alternatif](http://www.pompage.net/traduction/Bien-utiliser-le-texte-alternatif) qui s'affichera lorsque l'image n'est pas disponible, car il permet aussi l'accessibilité pour les non-voyants et apporte de la sémantique pour les moteurs de recherche...
-- L'adresse est l'URL absolue qui permet d'atteindre le fichier lié sur le web.
+- L'adresse est l'URL absolue qui permet d'atteindre le fichier lié sur le web, ou le chemin relatif vers un fichier
 
->[!example] Exemple
->Le code MarkDown `![Image SVG logo du site https://compresspng.com](https://compresspng.com/images/compresspng/logo.svg "Compresser vos images avec la force d'un éléphant !")`, affiche :
->![Image SVG logo du site https://compresspng.com](https://compresspng.com/images/compresspng/logo.svg "Compresser vos images avec la force d'un éléphant !")
+>[!example]+ Exemple
+>Le code MarkDown `![Logo du site https://compresspng.com](https://compresspng.com/images/compresspng/logo.svg "Compresser vos images avec la force d'un éléphant !")`, affiche :
+>
+>![Logo du site https://compresspng.com](https://compresspng.com/images/compresspng/logo.svg "Compresser vos images avec la force d'un éléphant !")
+
+>[!note]- Cette syntaxe fonctionne aussi avec une image du coffre...
+>Le code MarkDown `![Logo du site https://compresspng.com](assets/compress_png.svg "Compresser vos images avec la force d'un éléphant !")`, affiche la même chose :
+>
+>![Logo du site https://compresspng.com](assets/compress_png.svg "Compresser vos images avec la force d'un éléphant !")
+>> **Remarque** :
+>> La mise à jour automatique du lien relatif peut poser problème en cas de changement de dossier...
 
 ### Images du coffre
-Pour insérer l'affichage d'une image disponible dans le coffre d'Obsidian, on utilise le code MarkDown spécifique d'un lien interne, avec un `!` devant :
+Pour insérer l'affichage d'une image disponible dans le coffre d'Obsidian, il peut-être plus pratique d'utiliser le code MarkDown spécifique d'un lien interne, avec un `!` devant :
 ```md
 ![[nom_fichier_image]]
 ```
+> Le plus simple pour obtenir ce code est alors de glisser/déposer un fichier image depuis l'explorateur dans le code MarkDown d'une note là ou l'on souhaite insérer l'image
+
+>[!example] Exemple
+>Le code MarkDown `![[compress_png.svg]]`, affiche :
+>
+>![[compress_png.svg]]
+
 
 A venir...
 
@@ -73,8 +88,6 @@ A venir...
 
 > Alignement
 > https://github.com/SlRvb/Obsidian--ITS-Theme#image-positions
-
-> format d'images
 
 >[!question]- Quel format d'image pour le web ?
 >- **JPEG**  (**J**oint **P**hotographic **E**xpert **G**roup)
