@@ -54,7 +54,8 @@ Pour insérer l'affichage d'une image disponible sur le web on utilise le code M
 - L'adresse est l'URL absolue qui permet d'atteindre le fichier lié sur le web.
 
 >[!example] Exemple
->Le code MarkDown `![texte alternatif](adresse "infobulle")`
+>Le code MarkDown `![Image SVG logo du site https://compresspng.com](https://compresspng.com/images/compresspng/logo.svg "Compresser vos images avec la force d'un éléphant !")`, affiche :
+>![Image SVG logo du site https://compresspng.com](https://compresspng.com/images/compresspng/logo.svg "Compresser vos images avec la force d'un éléphant !")
 
 ### Images du coffre
 Pour insérer l'affichage d'une image disponible dans le coffre d'Obsidian, on utilise le code MarkDown spécifique d'un lien interne, avec un `!` devant :
@@ -71,6 +72,7 @@ A venir...
 > Image support de lien
 
 > Alignement
+> https://github.com/SlRvb/Obsidian--ITS-Theme#image-positions
 
 > format d'images
 
