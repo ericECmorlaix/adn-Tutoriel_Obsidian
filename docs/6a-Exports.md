@@ -1,7 +1,5 @@
 # Exporter
 
-A venir...
-
 ## PDF & Cie
 
 Obsidian peut nativement exporter en `note.pdf` un fichier Markdown `note.md`.
@@ -150,7 +148,7 @@ Obsidian propose une solution payante, [Obsidian Sync](https://help.obsidian.md/
 
 Il est possible de synchroniser tout ou partie des données d'un coffre d'Obsidian entre différents appareils par l'intermédiaire de GitHub. 
 
-#### Créer un dépôt GitHub
+#### Se connecter à GitHub
 
 1. Créer un compte sur GitHub (Sign up) depuis un navigateur à l'adresse [https://github.com/](https://github.com/) ;
 
@@ -160,7 +158,36 @@ Ou identifier vous (Sign in) si vous avez déjà un compte :
 
    <img class="center" src="https://ericecmorlaix.github.io/img/GitHub00b.png" width=45% alt="identification GitHub" >
 
+#### Créer un nouveau dépôt GitHub
 
+2. A l'adresse [https://github.com/new](https://github.com/new) **créer** un nouveau répertoire de dépôt privé nommé, par exemple `mon_carnet_Obsidian` et **ajouter** une description ;
+
+<img class="center" src="https://ericecmorlaix.github.io/img/GitHub01e.png" alt="nouveau repository GitHub">
+
+3. Cocher la case **"Initialize this repository with a README"** puis cliquer sur le bouton **"Create repository"**.
+
+>[!success] Voilà, vous faites maintenant parti d'un autre [réseau social mondial celui des développeurs de code](https://medium.com/coding-days/focus-sur-github-le-r%C3%A9seau-social-des-d%C3%A9veloppeurs-165a2978ea9e)...
+
+
+  
+
+#### Créer un nouveau fichier
+
+> [!note] Remarque
+> L'objectif ici est de créer un fichier `.gitignore` pour exclure certains fichiers de la synchronisation avec GitHub notamment ceux de l'interface Obsidian qui resteront ainsi spécifiques à chaque machine...
+
+4. **Cliquer** sur le bouton `Add file` depuis l'interface de votre dépôt GitHub et choisir `Create new files` :
+
+5. Dans l'éditeur qui s'ouvre, **saisir** le nom du fichier `.gitignore` :
+6. Dans la zone d'édition du fichier inscrire l'instruction `.obsidian/*`
+
+> [!success] **Waouh !** vous venez de faire votre premier [**Commit**](https://fr.wikipedia.org/wiki/Commit) **!**  
+
+<figure>
+
+    <img src="https://ericecmorlaix.github.io/img/GitHub05c.png" alt="créer dossier et fichier">
+
+</figure>
 ---
 
 ### Air Drop

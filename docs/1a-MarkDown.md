@@ -11,7 +11,7 @@
 
 ## Introduction
 
-![Logo]
+![Logo] 
 
 [**Markdown**][1] est un langage de description à balisage plus léger à coder que des balises HTML.  
 Son code est plus lisible dans l'éditeur, plus pratique et rapide pour rédiger et publier un document sur le Web.
@@ -156,7 +156,9 @@ En fait, dans Obsidian, les fichiers `note.md` sont bien plus que du simple text
 >[!success]- Copier/coller les codes MarkDown et HTML ci-dessus dans une note d'Obsidian pour vérifier qu'ils produisent bien le même affichage...
 > On observe que pour un même résultat affiché, le texte contenu dans le code MarkDown est nettement plus lisible que celui perdu dans le balisage HTML surtout lorsque, comme ici, on rejette les URL des liens avec des `[références]` en dessous du texte.
 
-## [Les Titres](https://help.obsidian.md/How+to/Format+your+notes#Headers)
+## Les titres
+
+[Cf. documentation obsidian : Titres](https://help.obsidian.md/How+to/Format+your+notes#Headers "Aide officielle sur les titres")
 
 >[!example]+ Copier/coller le code suivant dans Obsidian et observer le résultat en mode aperçu
 >```markdown
@@ -184,7 +186,7 @@ En fait, dans Obsidian, les fichiers `note.md` sont bien plus que du simple text
 
 ## Corps de texte
 
-[Emphase](https://help.obsidian.md/How+to/Format+your+notes#Emphasis), [Barré](https://help.obsidian.md/How+to/Format+your+notes#Strikethrough), [Surligné](https://help.obsidian.md/How+to/Format+your+notes#Highlighting) [Code](https://help.obsidian.md/How+to/Format+your+notes#Code)
+Cf. documentation obsidian : [Emphase](https://help.obsidian.md/How+to/Format+your+notes#Emphasis), [Barré](https://help.obsidian.md/How+to/Format+your+notes#Strikethrough), [Surligné](https://help.obsidian.md/How+to/Format+your+notes#Highlighting) [Code](https://help.obsidian.md/How+to/Format+your+notes#Code)
 
 >[!example]+ Copier/coller le code suivant dans Obsidian et observer le résultat en mode aperçu
 >```markdown
@@ -212,7 +214,9 @@ En fait, dans Obsidian, les fichiers `note.md` sont bien plus que du simple text
 
 ## Les listes
 
-### [Liste à puces](https://help.obsidian.md/How+to/Format+your+notes#Unnumbered+lists)
+### Liste à puces
+
+[Cf. documentation obsidian : Liste à puces](https://help.obsidian.md/How+to/Format+your+notes#Unnumbered+lists "Aide officielle sur les liste à puces")
 
 >[!example]+ Copier/coller le code suivant dans Obsidian et observer le résultat en mode aperçu
 >```markdown
@@ -232,7 +236,9 @@ En fait, dans Obsidian, les fichiers `note.md` sont bien plus que du simple text
 > 	- Il n'est pas nécessaire de commencer par sauter une ligne ;
 > 	-  un changement de marqueur d'item de liste entre  `-`, `+` ou `*` en MarkDown, balises `<li></li>` en HTML, provoque un changement de liste soit la création d'une nouvelle liste non ordonnée,  balises `<ul></ul>` en HTML.
 
-### [Liste ordonnée](https://help.obsidian.md/How+to/Format+your+notes#Numbered+Lists)
+### Liste ordonnée
+
+[Cf. documentation obsidian : Liste ordonnée](https://help.obsidian.md/How+to/Format+your+notes#Numbered+Lists "Aide officielle sur les liste ordonnée")
 
 >[!example]+ Copier/coller le code suivant dans Obsidian et observer le résultat en mode aperçu
 >```markdown
@@ -247,7 +253,9 @@ En fait, dans Obsidian, les fichiers `note.md` sont bien plus que du simple text
 >[!abstract] On procède de même, mais en précédant chaque item d'un nombre suivi d'un `.`
 > Dans Obsidian la numérotation démarre à partir du nombre indiqué devant le premier item listé mais, afin de rompre avec l'élément précédent, il faut sauter une ligne avant de commencer un liste ainsi ordonnée, balises `<ol></ol>` en HTML.
 
-### [Liste de taches](https://help.obsidian.md/How+to/Format+your+notes#Task+list)
+### Liste de taches
+
+[Cf. documentation obsidian : Liste de taches](https://help.obsidian.md/How+to/Format+your+notes#Task+list "Aide officielle sur les liste de taches")
 
 >[!example]+ Copier/coller le code suivant dans Obsidian et observer le résultat en mode aperçu
 >```markdown
@@ -264,9 +272,9 @@ En fait, dans Obsidian, les fichiers `note.md` sont bien plus que du simple text
 >- marquer avec un `[x]` en mode édition, ou cocher le bouton radio en mode aperçu devant une tâche barre le texte de cet item, et s'il s'agit d'une tâche supérieure, cela raye toutes les tâches de sa sous-liste sans exception.
 >- les listes de taches sont particulièrement bien exploitées en [[5-Projets|gestion de projet]]...
 
+### Trait horizontal
 
-
-### [Trait horizontal](https://help.obsidian.md/How+to/Format+your+notes#Horizontal+Bar)
+Cf. documentation obsidian : Trait horizontal](https://help.obsidian.md/How+to/Format+your+notes#Horizontal+Bar "Aide officielle sur l'ajout d'un trait horizontal")
 
 >[!example]+ Copier/coller le code suivant dans Obsidian et observer le résultat en mode aperçu
 >```markdown
@@ -286,7 +294,6 @@ A venir...
 ### [Citation](https://help.obsidian.md/How+to/Format+your+notes#Blockquotes)
 
 
-
 ### [Admonitions](https://help.obsidian.md/How+to/Format+your+notes#Callouts)
 
 #### [Code en ligne](https://help.obsidian.md/How+to/Format+your+notes#Inline+code)
@@ -294,27 +301,20 @@ Exemple : ``Ceci est du `code`.``
 
 #### [Bloc de code](https://help.obsidian.md/How+to/Format+your+notes#Code+blocks)
 
-### [Liens](https://help.obsidian.md/How+to/Format+your+notes#Links)
-
-
 #### [Note de bas de page](https://help.obsidian.md/How+to/Format+your+notes#Footnotes)
-
-
-Mises en bouche  en attendant d'autres développements mais qui peut être suffisante, surtout associé au "Coffre de test" que l'on peut ouvrir à partir du bouton d'aide en bas à gauche de l'interface d'Obsidian :
-![[bouton_aide.png]]
 
 ## Exercices de MarkDown
 
 Un tutoriel en ligne pour découvrir la syntaxe MarkDown et s'entrainer à l'écrire : <https://www.markdowntutorial.com/fr/>
 
-## Un résumé extrait du [guide obsidian de Johackim](https://johackim.com/obsidian#syntaxe-markdown)
+## En résumé
+
+Inspiré du [guide obsidian de Johackim](https://johackim.com/obsidian#syntaxe-markdown)
 
 ### Syntaxe Markdown
 
 Obsidian utilise la syntaxe Markdown par défaut :
 
--   `[Link Text](URL)` : Créer un lien avec URL
--   `![Alt Text](URL)` : Créer une image
 -   `- Bullet List` : Créer une liste
 -   `1. Number List` : Créer une liste numérique
 -   `**bold**` : Créer un texte en gras
@@ -325,28 +325,17 @@ Obsidian utilise la syntaxe Markdown par défaut :
 -   `# Heading 1` : Créer un titre de niveau 1
 -   `## Heading 2` : Créer un titre de niveau 2
 -   `### Heading 3` : Créer un titre de niveau 3
--   `[ref1]` et `[ref1]: <url>` : Créer une référence
--   `[Link Text][ref1]` et `[ref1]: <url>` : Créer une référence avec un text personnalisé
 
 ### Syntaxe d'Obsidian
 
 Mais il a quelques spécificités de syntaxes supplémentaires :
 
--   `[[Linking Note]]` : Créer un lien vers une autre note
--   `[[Linking Note|Link Name]]` : Créer un lien avec un nom personnalisé
--   `[[Linking Note#heading]]` : Créer un lien vers un titre d'une autre note
--   `![[Linking Note^]]` : Intégrer un bloc d'une autre note
--   `![[Filename]]` : Intégrer une autre note
--   `![250](https://johackim.com/soon?title=250 "Note bientôt disponible")` : Insérer une image embed de 250px de largeur
-    
--   `![|250](https://site.xyz/image.png)` : Insérer une image de 250px de largeur
--   `#tag` : Créer un tag
--   `#nested/tag` : Créer un sous-tag
 -   `[^Ref]` et `[^Ref]: Footnote text.` : Créer une note de bas de page
 -   `^[Footnote text]` : Créer une note de bas de page en une ligne
 -   `==highlight==` : Créer un texte surligné
--   `aliases: [Alias1, Alias2]` : Créer un alias (à ajouter dans le frontmatter)
 -   `- [ ] Task list` : Créer une tâche
 -   `- [x] Task list` : Cocher une tâche
+
+
 
 

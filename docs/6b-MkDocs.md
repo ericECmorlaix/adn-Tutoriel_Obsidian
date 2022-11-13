@@ -7,7 +7,7 @@ Cette partie présente une démarche qui vous permettra de publier sur le Web de
 ## Mise en place
 ### Coté GitHub
 
-#### Créer un dépot GitHub
+#### Se connecter à GitHub
 
 1. Créer un compte sur GitHub (Sign up) depuis un navigateur à l'adresse [https://github.com/](https://github.com/) ;
 
@@ -16,6 +16,8 @@ Cette partie présente une démarche qui vous permettra de publier sur le Web de
 Ou identifier vous (Sign in) si vous avez déjà un compte :
 
    <img class="center" src="https://ericecmorlaix.github.io/img/GitHub00b.png" width=45% alt="identification GitHub" >
+
+#### Créer un dépôt à partir d'un template
 
 2. **Créer** un nouveau dépôt GitHub à partir du modèle [simple_template_obsidian_mkdocs](https://github.com/ericECmorlaix/simple_template_obsidian_mkdocs)  en cliquant sur le bouton "==Use this template==" ou tout simplement en cliquant sur [ce lien](https://github.com/ericECmorlaix/simple_template_obsidian_mkdocs/generate) ;
 

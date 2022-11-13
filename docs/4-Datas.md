@@ -51,4 +51,12 @@ Mises en bouche en attendant :
 >[!quote]- [Nicole van der Hoeven](https://www.youtube.com/c/NicolevanderHoeven)
 ><center><figure><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vS-b_RUtL1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure></center>
 ><center><figure><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JTObSymEvWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure></center>
->
+
+<!--
+## En résumé
+
+-   `#tag` : Créer un tag
+-   `#nested/tag` : Créer un sous-tag
+-   `aliases: [Alias1, Alias2]` : Créer un alias (à ajouter dans le frontmatter)
+
+-->

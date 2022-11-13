@@ -41,3 +41,10 @@ Pour cela, vous trouverez sur le web de nombreux tutoriels vidéo, plus ou moins
 >[!quote]- [Emowe](https://youtube.com/playlist?list=PLWUX-KZsnKXSKOjd4WIbqB5GsHORz88JS) 🇪🇸
 ><center><figure><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/64pI_dKYZOg?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure></center>
 ><center><figure><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y1WpRhFgb2M?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure></center>
+
+## Coffre de test
+
+Obsidian propose un "Coffre de test" pour expérimenter différentes fonctionnalités.
+On l'ouvre à partir du bouton d'aide en bas à gauche de l'interface d'Obsidian :
+
+![[bouton_aide.png]]

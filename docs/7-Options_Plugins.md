@@ -29,6 +29,12 @@ Un [Snippet](https://fr.wikipedia.org/wiki/Snippet), ou bout de code, est un [mo
 >```
 4. Placer le curseur au bon endroit puis cliquer sur le bouton `Insérer le modèle` dans la barre latérale gauche et choisir le fichier idoine...
 ___
+#### Vue graphique
+
+#### Rétrolien
+
+#### Liens sortants
+
 ### Plugins tiers
 
 Les modules complémentaires
