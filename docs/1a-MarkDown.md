@@ -274,7 +274,7 @@ Cf. documentation obsidian : [Emphase](https://help.obsidian.md/How+to/Format+yo
 
 ### Trait horizontal
 
-Cf. documentation obsidian : Trait horizontal](https://help.obsidian.md/How+to/Format+your+notes#Horizontal+Bar "Aide officielle sur l'ajout d'un trait horizontal")
+Cf. documentation obsidian : [Trait horizontal](https://help.obsidian.md/How+to/Format+your+notes#Horizontal+Bar "Aide officielle sur l'ajout d'un trait horizontal")
 
 >[!example]+ Copier/coller le code suivant dans Obsidian et observer le résultat en mode aperçu
 >```markdown
@@ -289,12 +289,71 @@ Cf. documentation obsidian : Trait horizontal](https://help.obsidian.md/How+to/F
 
 >[!warning] Trois `-` peuvent aussi être interprété pour marquer un titre de niveau 2 ou, comme on le verra plus loin, pour définir un [séparateur de diapositives]() ou encore un [front matter de metadonnées]() 
 
+
+
+### Citation
+
+Cf. documentation obsidian : [Citation](https://help.obsidian.md/How+to/Format+your+notes#Blockquotes)
+
+### Admonitions
+
+Cf. documentation obsidian : [Admonitions](https://help.obsidian.md/How+to/Format+your+notes#Callouts)
+
+Les admonitions, ou "callouts" d'Obsidian sont des boites colorées d'avertissements, pour des alertes, mises en garde et autres apartés, qui viennent compléter le flux normal de l'information sur une note pour illustrer ou souligner un point particulier, une difficulté...
+
+> [!example] Pour expérimenter :
+>**Copier/coller** dans une note d'Obsidian les bouts de code suivants :
+> >_**Remarque** : Dans les exemples ci-dessous, les deux espaces laissées au début de chaque ligne devant les chevrons `>`  ne sont pas obligatoires dans Obsidian..._
+
+```md
+  >[!note]
+  >De base, il existe 12 styles de boites différentes définies par des noms de types. Si aucun de ces mots clés types n'est précisé, ou si le mot clé n'est pas reconnu (*généralement parce que mal orthographié*), c'est ce type `note` qui sera utilisé par défaut.
+```
+
+```md
+  >[!abstract]
+  > Pour un résumé, un sommaire, un développement trop long à lire...
+```
+
+```md
+  >[!example]+
+  >Ici un exemple d'avertissement repliable déplié par défaut et ci-dessous des avertissements dépliables tous repliés par défaut...
+```
+
+```md
+  >[!danger]- 
+  >**Toto** est dans la place !
+  >>_Ceci est une mise en garde, on vous avait prévenu du danger !!_
+```
+
+```md
+  >[!tip]- Pour définir un titre ==personnalisé== :
+  >Il suffit de l'écrire en markdown après le `[!tip]-` que l'on utilise pour une astuce, un indice, une note importante...
+```
+
+```md
+  >[!question]- Est-ce que les avertissements peuvent s'imbriquer ?
+  >>[!success] Oui, c'est le cas dans Obsidian.> >
+  >>>[!failure] Mais le rendu ne fonctionne pas dans [MkDocs](https://ericecmorlaix.github.io/simple_template_obsidian_mkdocs/Fonctions/3-Admonitions/). 
+  >>>>[!quote]
+  >>>>"_Si vous avez besoin de quelque chose, appelez moi.
+  >>>>Je vous dirai comment vous en passer._"
+  >>>>Coluche
+```
+
+```md
+  >[!warning | left]-
+  >Il faut utiliser de préférence **les valeurs par défaut**  `note`, `abstract`, `info`, `tip`, `success`, `question`, `warning`, `failure`, `danger`, `bug`, `example`, `quote`, *et ainsi éviter leurs alias !*
+```
+
+```md
+  >[!bug | right]-
+  >Avec ce code `[!bug | right]` cet avertissement s'aligne à droite dans [MkDocs](https://ericecmorlaix.github.io/simple_template_obsidian_mkdocs/Fonctions/3-Admonitions/),
+  >et le précédent à gauche avec le code `[!warning | left]`,
+  >mais ce n'est pas le cas de base dans Obsidian...
+```
+
 A venir...
-
-### [Citation](https://help.obsidian.md/How+to/Format+your+notes#Blockquotes)
-
-
-### [Admonitions](https://help.obsidian.md/How+to/Format+your+notes#Callouts)
 
 #### [Code en ligne](https://help.obsidian.md/How+to/Format+your+notes#Inline+code)
 Exemple : ``Ceci est du `code`.``

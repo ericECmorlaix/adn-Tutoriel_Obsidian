@@ -37,4 +37,16 @@ ___
 
 ### Plugins tiers
 
-Les modules complémentaires
+Les [modules complémentaires](https://help.obsidian.md/Advanced+topics/Community+plugins) ajoutent à Obsidian des fonctionnalités remarquables...
+
+#### Escalidraw
+
+[Lien dans Obsidian](obsidian://show-plugin?id=obsidian-excalidraw-plugin)
+
+**L'incontournable** qui permet de créer des dessins et schémas enrichis (liens, images, notes, ...) avec un style "fait à la main" pour les intégrer dans vos notes ou faire des cartes de contenus graphiques...
+
+#### Ozan's Image in Editor Plugin
+
+[Lien dans Obsidian](obsidian://show-plugin?id=oz-image-plugin)
+
+Permet d'avoir un aperçu des images, vidéos et autres fichiers intégrés en mode édition de code source.
