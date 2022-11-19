@@ -1,5 +1,14 @@
 # Exporter
 
+## Partages
+
+Les notes d'Obsidian sont de simples fichiers de texte brut avec l'extension `.md` qui sont stockés dans le dossier du coffre Obsidian sur votre appareil. On peut donc y accéder directement depuis l'explorateur ou l'application de gestion de fichiers et les partager de là vers d'autres destinations iCloud, OneDrive, ou les espaces de stockage physique d'autres appareils via AirDrop par exemple, ou Wifi, ou encore par mails...
+
+Si la note ne fait référence qu'à des liens absolus, il suffit de partager un copie du fichier `note.md`.
+En revanche, si la note intègre des pièces jointes du coffre, le plus simple alors est de les rassembler dans un même sous-dossier du coffre puis de compresser son contenu dans une `archive.zip` avant de la partager.
+
+Si la note ou le dossier à partager se trouve sur iCloud (ou OneDrive ?), il est alors possible de les partager en **mode collaboratif**....
+
 ## PDF & Cie
 
 Obsidian peut nativement exporter en `note.pdf` un fichier Markdown `note.md`.
@@ -141,8 +150,13 @@ On peut alors exporter la présentation au format pdf mais aussi en HTML ce qui 
 
 Obsidian propose une solution payante, [Obsidian Sync](https://help.obsidian.md/Obsidian+Sync/Introduction+to+Obsidian+Sync) pour synchroniser les données d'un coffre entre différents appareils. Cependant, il est aussi possible de le faire différemment... 
 
-### [iCloud](https://help.obsidian.md/Getting+started/Sync+your+notes+across+devices#iCloud+Drive)
+### iCloud
 
+[Cf. documentation obsidian : iCloud](https://help.obsidian.md/Getting+started/Sync+your+notes+across+devices#iCloud+Drive)
+
+Pour synchroniser un coffre d'Obsidian entre différents appareils à travers iCloud, il faut créer sur iPad un nouveau coffre en activant l'option  `Strore in iCloud`...
+
+Les notes de ce coffre sont éditables hors connexion internet et les modifications seront remontées vers iCloud Drive lorsque l'iPad sera connecté à nouveau.
 
 ### GitHub
 
@@ -190,8 +204,6 @@ Ou identifier vous (Sign in) si vous avez déjà un compte :
 </figure>
 ---
 
-### Air Drop
 
----
 
 

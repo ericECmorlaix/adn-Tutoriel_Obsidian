@@ -1,6 +1,18 @@
 # Importer
 
-A venir... 
+A venir...
+
+## Autres éditeurs
+
+Obsidian peut lire et éditer des fichiers `note.md` en provenance de tout autre éditeur de MarkDown. 
+
+StackEdit
+
+CodiMD
+
+Carnets
+
+VSC
 
 ## Raccourcis
 
