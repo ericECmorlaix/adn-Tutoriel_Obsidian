@@ -51,12 +51,13 @@ A venir...
 
 ## Raccourcis
 
-
 (ShortCut)
 
 <center><figure><iframe width="560" height="315" src="https://www.youtube.com/embed/ZD-P0lTkQMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><figcaption><a href="https://www.youtube.com/channel/UCdoxG0PYUF9GzTZN_nl42iA" target="_blank">Darin Suthapong</a></figcaption></figure></center>
 
-
+Par exemple, voici deux raccourcis à télécharger :
+- [Capture idée](https://www.icloud.com/shortcuts/92d01db4fc274ce8968c994bc878413c) -> ==Il faut personnaliser le nom et chemin vers le dossier "Capture"==
+- [Partager média](https://www.icloud.com/shortcuts/e9894db622134e4cb4584309fc8d33d9) -> ==Il faut personnaliser le nom et chemin vers le dossier "Assets"==
 
 
 ## Clipper
