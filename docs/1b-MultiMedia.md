@@ -119,7 +119,91 @@ A venir...
 ## [Tableau](https://help.obsidian.md/How+to/Format+your+notes#Tables)
 
 
-## [LaTeX](https://help.obsidian.md/How+to/Format+your+notes#Math)
+## $\LaTeX{}$
+
+[Cf. documentation obsidian : Math](https://help.obsidian.md/How+to/Format+your+notes#Math)
+
+[$\LaTeX$](https://fr.wikipedia.org/wiki/LaTeX), qu'on prononce "LaTèque", est un langage de description à balisage dédié à l'édition et la publication de rapports scientifiques avec une typographie irréprochable.  
+
+Dans une `note.md` d'Obsidian, il est possible d'intégrer des instructions codées en $\LaTeX$ qui seront interprétées par la librairie JavaScript [Mathjax](https://www.mathjax.org/) embarquée pour afficher des équations et autres symboles scientifiques.
+
+
+### Principe
+
+Pour une formule en ligne, au fil du texte, telle que $f(x) = x^2$, il faut encadrer l'expression entre deux simples `$...$` comme ceci `$f(x) = x^2$`.
+
+Pour une formule en bloc, dans un nouveau paragraphe centré, il faut encadrer l'expression entre deux doubles `$$...$$` comme cela :
+
+```latex
+$$
+F(x) = \int^a_b \frac{1}{2}x^4
+$$
+```
+
+ce qui produit :
+
+$$
+F(x) = \int^a_b \frac{1}{2}x^4
+$$
+
+### Exemples
+
+|             Code             |          Résultat          |                Code                 |    Résultat    |
+|:----------------------------:|:--------------------------:|:-----------------------------------:|:--------------:|
+|          `$x + y$`           |          $x + y$           |              `$x - y$`              |    $x - y$     |
+|        `$x \times y$`        |        $x \times y$        |            `$x \div y$`             |   $x \div y$   |
+|           `$x^2$`            |           $x^2$            |            `$y^{(x-1)}$`            |  $y^{(x-1)}$   |
+|   `$\pi \approx 3.14159$`    |   $\pi \approx 3.14159$    |            `$1 \neq 2$ `            |   $1 \neq 2$   |
+|          `$0 < 1$`           |          $0 < 1$           |              `$2 > 1$`              |    $2 > 1$     |
+|         `$x \leq 2$`         |         $x \leq 2$         |            `$x \geq 1$`             |   $x \geq 1$   |
+|       `${3 \over 4}$`        |       ${3 \over 4}$        |          `$\dfrac{1}{2x}$`           | $\dfrac{1}{2x}$ |
+| `$U_n = 3 \times U_{n-1}+2$` | $U_n = 3 \times U_{n-1}+2$ | `$f(x) = \sqrt[3]{2x} + \sqrt{x-2}$` | $f(x) = \sqrt[3]{2x} + \sqrt{x-2}$               |
+
+|        | Code                                                           | Résultat                                                     |
+| ------ | -------------------------------------------------------------- | ------------------------------------------------------------ |
+| Boole  | `$a\oplus b=\bar{a}\cdot b+a\cdot\bar{b}$`                     | $a\oplus b=\bar{a}\cdot b+a\cdot\bar{b}$                     |
+| Force  | $\overrightarrow{F_{(ext \to S)}}$                             | $\overrightarrow{F_{(ext \to S)}}$                           |
+| Moment | `$\sum\overrightarrow{M_G(\overrightarrow{F_{(ext \to S)}})}$` | $\sum\overrightarrow{\mathscr M_G(\overrightarrow{F_{(ext \to S)}})}$ |
+| Unité  | `$49,52\;\mathrm{N\!\cdot\!m}$`                                         | $\|\overrightarrow{C_\text{moteur}}\|=49,52\;\mathrm{N\!\cdot\!m}$                                                             |
+
+| Nom     |     Code     |   Lettre   |     Code     |   Lettre   |      Code       | Lettre |
+| ------- |:------------:|:----------:|:------------:|:----------:|:---------------:|:---:|
+| alpha   |  `$\alpha$`  |  $\alpha$  |    `$A$`     |    $A$     |                 |     |
+| beta    |  `$\beta$`   |  $\beta$   |    `$B$`     |    $B$     |                 |     |
+| gamma   |  `$\gamma$`  |  $\gamma$  |  `$\Gamma$`  |  $\Gamma$  |                 |     |
+| delta   |  `$\delta$`  |  $\delta$  |  `$\Delta$`  |  $\Delta$  |                 |     |
+| epsilon | `$\epsilon$` | $\epsilon$ |    `$E$`     |    $E$     | `$\varepsilon$` |  $\varepsilon$   |
+| zeta    |  `$\zeta$`   |  $\zeta$   |    `$Z$`     |    $Z$     |                 |     |
+| eta     |   `$\eta$`   |   $\eta$   |    `$H$`     |    $H$     |                 |     |
+| theta   |  `$\theta$`  |  $\theta$  |  `$\Theta$`  |  $\Theta$  |  `$\vartheta$`  |   $\vartheta$  |
+| iota    |  `$\iota$`   |  $\iota$   |    `$I$`     |    $I$     |                 |     |
+| kappa   |  `$\kappa$`  |  $\kappa$  |    `$K$`     |    $K$     |  `$\varkappa$`  |  $\varkappa$   |
+| lambda  | `$\lambda$`  | $\lambda$  | `$\Lambda$`  | $\Lambda$  |                 |     |
+| mu      |   `$\mu$`    |   $\mu$    |    `$M$`     |    $M$     |                 |     |
+| nu      |   `$\nu$`    |   $\nu$    |    `$N$`     |    $N$     |                 |     |
+| xi      |   `$\xi$`    |   $\xi$    |    `$Xi$`    |    $Xi$    |                 |     |
+| omicron | `$\omicron$` | $\omicron$ |    `$O$`     |    $O$     |                 |     |
+| pi      |   `$\pi$`    |   $\pi$    |   `$\Pi$`    |   $\Pi$    |   `$\varpi$`    | $\varpi$    |
+| rho     |   `$\rho$`   |   $\rho$   |    `$P$`     |    $P$     |   `$\varrho$`   |  $\varrho$   |
+| sigma   |  `$\sigma$`  |  $\sigma$  |  `$\Sigma$`  |  $\Sigma$  |  `$\varsigma$`  |   $\varsigma$  |
+| tau     |   `$\tau$`   |   $\tau$   |    `$T$ `    |    $T$     |                 |     |
+| upsilon | `$\upsilon$` | $\upsilon$ | `$\Upsilon$` | $\Upsilon$ |                 |     |
+| phi     |   `$\phi$`   |   $\phi$   |   `$\Phi$`   |   $\Phi$   |   `$\varphi$`   |   $\varphi$  |
+| chi     |   `$\chi$`   |   $\chi$   |    `$X$ `    |    $X$     |                 |     |
+| psi     |   `$\psi$`   |   $\psi$   |   `$\Psi$`   |   $\Psi$   |                 |     |
+| omega   |  `$\omega$`  |  $\omega$  |  `$\Omega$`  |  $\Omega$  |                 |     |
+
+### Ressources
+- La très précieuse et précise [Aide pour écrire des mathématiques simples](https://ens-fr.gitlab.io/mkdocs/maths/) par Franck CHAMBON  
+- [Equation Sheet](http://www.equationsheet.com/)
+- [Editeur d'équation en ligne](http://www.codecogs.com/eqnedit.php?latex=)
+- L'ultime ressource : [LaTeX Wiki](http://en.wikibooks.org/wiki/LaTeX/Mathematics)
+- Pour s'initier au vrai $\LaTeX$ :[Apprentissage LaTeX en ligne avec ShareLaTeX](http://tsi.si.lycee.ecmorlaix.fr/APprentissageLaTeX/)
+- Sur le site de Didier MULLER https://www.apprendre-en-ligne.net/LaTeX/index.html :
+  - [Introduction à LaTex, par Fabien Augsburger (pdf, 17 pages)](https://www.apprendre-en-ligne.net/LaTeX/IntroLaTeX.pdf) ;
+  - [Apprends LaTeX, par Marc Baudoin (pdf, 112 pages)](https://www.apprendre-en-ligne.net/LaTeX/apprends-latex.pdf) ;
+  - [Tout ce que vous avez toujours voulu savoir sur LATEX sans jamais oser le demander (pdf, 338 pages)](https://www.apprendre-en-ligne.net/LaTeX/framabook5_latex.pdf)
+  - [LaTeX pour l'impatient, 4ème édition, Céline Chevalier, H&K, 2016](https://www.amazon.fr/LaTeX-pour-limpatient-Spiral-Bound/dp/235141327X/ref=as_li_ss_tl?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=latex%2Bpour%2Bl%27impatient&qid=1558529880&s=gateway&sr=8-1-fkmrnull&linkCode=ll1&tag=coyote-21&linkId=210710a1380df1e7df1910e0bc63f40a&language=fr_FR)
 
 
 ## [Diagrammes](https://help.obsidian.md/How+to/Format+your+notes#Diagram)
