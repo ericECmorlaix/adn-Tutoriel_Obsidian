@@ -23,7 +23,7 @@ Il ajoute un nouveau format de fichier `canvas.JSON` pour une visualisation grap
 
 Canvas est une excellente solution pour réaliser des Map of Content (MoC) graphique (index de notes, carte heuristique, dessin enrichi de liens, ...) centrées sur un sujet, une question, un centre d'intérêt ou un projet en particulier, et ainsi permettre, tel un routeur (hub), de naviguer plus facilement dans votre second cerveau numérique.
 
->[!quote]+ [Cerveau Numérique Fr](https://cerveau-numerique.fr/)
+>[!quote]- [Cerveau Numérique Fr](https://cerveau-numerique.fr/)
 ><center><figure><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8nrjJUQmlBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure></center>
 
 
@@ -60,6 +60,10 @@ Les [modules complémentaires](https://help.obsidian.md/Advanced+topics/Communit
 [Lien dans Obsidian](obsidian://show-plugin?id=obsidian-excalidraw-plugin)
 
 **L'incontournable** qui permet de créer des dessins et schémas enrichis (liens, images, notes, ...) avec un style "fait à la main" pour les intégrer dans vos notes ou faire des cartes de contenus graphiques...
+
+>[!quote]- [Nicole van der Hoeven](https://www.youtube.com/c/NicolevanderHoeven) 🇬🇧 
+><center><figure><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/erKrXsIwbAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure></center>
+
 
 #### Ozan's Image in Editor Plugin
 
