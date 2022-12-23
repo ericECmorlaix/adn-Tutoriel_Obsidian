@@ -11,7 +11,23 @@ A venir...
 
 ### Plugins d'Obsidian
 
-Les modules principaux
+Les modules principaux recouvrent des fonctionnalités intégrées dès l'installation d'Obsidian mais qu'il faut généralement activer pour en bénéficier ou alors désactiver...  
+
+#### [Diapositives](https://ericecmorlaix.github.io/adn-Tutoriel_Obsidian/6a-Exports/#diaporama-basique)
+
+#### Canvas
+
+[Canvas](https://obsidian.md/canvas) est le tout dernier plugin ajouté à Obsidian pour tous depuis la [version 1.1.8 pour Desktop](https://forum.obsidian.md/t/obsidian-release-v1-1/50112) (mais il n'est pas encore disponible sur la version mobile).
+
+Il ajoute un nouveau format de fichier `canvas.JSON` pour une visualisation graphique de cartes, des cadres colorés possiblement reliées entre eux, dans lesquels vous pouvez afficher du texte enrichi avec des hyperliens au format HTML (MarkDown) ou le contenu des `note.md` et autre fichier image, audio, vidéo, ou pdf de votre coffre ou des contenus disponibles sur le web...
+
+Canvas est une excellente solution pour réaliser des Map of Content (MoC) graphique (index de notes, carte heuristique, dessin enrichi de liens, ...) centrées sur un sujet, une question, un centre d'intérêt ou un projet en particulier, et ainsi permettre, tel un routeur (hub), de naviguer plus facilement dans votre second cerveau numérique.
+
+>[!quote]+ [Cerveau Numérique Fr](https://cerveau-numerique.fr/)
+><center><figure><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8nrjJUQmlBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure></center>
+
+
+
 
 #### Snippets
 
@@ -37,7 +53,7 @@ ___
 
 ### Plugins tiers
 
-Les [modules complémentaires](https://help.obsidian.md/Advanced+topics/Community+plugins) ajoutent à Obsidian des fonctionnalités remarquables...
+Les [modules complémentaires](https://help.obsidian.md/Advanced+topics/Community+plugins) ajoutent à Obsidian des fonctionnalités développées par la communauté et qui impliquent une installation et une activation supplémentaires...
 
 #### Escalidraw
 

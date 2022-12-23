@@ -1,5 +1,27 @@
 # Gestion de projets
 
+## KANBAN
+
+
+<!--
+[google.com/search?q=kanban&rlz=1C1CHBF_frFR845FR845&oq=kanban&aqs=chrome..69i57j0i433i512j0i512l3j69i60l3.3175j0j7&sourceid=chrome&ie=UTF-8](https://www.google.com/search?q=kanban&rlz=1C1CHBF_frFR845FR845&oq=kanban&aqs=chrome..69i57j0i433i512j0i512l3j69i60l3.3175j0j7&sourceid=chrome&ie=UTF-8)
+
+[https://fr.wikipedia.org/wiki/Kanban_(développement)](https://fr.wikipedia.org/wiki/Kanban_(d%C3%A9veloppement))
+
+[kanbanize.com/fr/ressources/debuter-avec/methode-kanban](https://kanbanize.com/fr/ressources/debuter-avec/methode-kanban)
+
+https://www.atlassian.com/fr/agile/kanban
+
+[cadremploi.fr/editorial/conseils/conseils-carriere/detail/article/jose-pas-demander-mais-c-est-quoi-la-methode-kanban.html](https://www.cadremploi.fr/editorial/conseils/conseils-carriere/detail/article/jose-pas-demander-mais-c-est-quoi-la-methode-kanban.html)
+
+https://www.merci-app.com/article/kanban
+
+https://www.amalo-recrutement.fr/blog/kanban/
+
+https://organisologie.com/comment-sorganiser/comment-atteindre-ses-objectifs/plan-action/methode-kanban-toyota-contenu/
+-->
+
+
 A venir...
 
 Mises en bouche en attendant plus de retour d'expérience :

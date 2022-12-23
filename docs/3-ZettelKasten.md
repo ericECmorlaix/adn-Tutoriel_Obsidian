@@ -56,6 +56,6 @@ Le workflow pour se construire une base de connaissance en mode ZettelKasten peu
 > [!abstract] Enfin, toutes ces ==notes rassemblées dans un même dossier== doivent être ==reliées entre elles== :
 > On utilise des liens internes (`[[lien]]`), des mots-clés `#tag` et encore d'autres métadonnées pour construire progressivement notre base numérique de connaissances organisée en réseau.
 > 
->Aussi, des Map of Content (MoC), ==notes spéciales contenant surtout des liens== vers d'autres notes, structurées linéairement ou graphiquement (index de note, carte heuristique, dessin enrichi de liens, ...) et centrées sur un sujet, une question, un centre d'intérêt ou un projet en particulier, permettront, tel un routeur (hub), de naviguer plus facilement dans ce second cerveau numérique.
+>Aussi, des Map of Content (MoC), ==notes spéciales contenant surtout des liens== vers d'autres notes, structurées linéairement ou graphiquement (index de notes, carte heuristique, dessin enrichi de liens, ...) et centrées sur un sujet, une question, un centre d'intérêt ou un projet en particulier, permettront, tel un routeur (hub), de naviguer plus facilement dans ce second cerveau numérique.
 
 
