@@ -70,3 +70,6 @@ Les [modules complémentaires](https://help.obsidian.md/Advanced+topics/Communit
 [Lien dans Obsidian](obsidian://show-plugin?id=oz-image-plugin)
 
 Permet d'avoir un aperçu des images, vidéos et autres fichiers intégrés en mode édition de code source.
+
+#### [Kaban]()
+#### Projects
