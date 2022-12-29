@@ -15,7 +15,7 @@ Après avoir installé et activé ce module complémentaire, **saisir** le mot `
 
 ### Mind Map améliorée
 
-Le plugin [Obsidian Enhancing Mind Map][obsidian://show-plugin?id=obsidian-enhancing-mindmap] permet de visualiser le contenu d'une `note.md` sous la forme graphique d'une carte heuristique et également d'éditer ce contenu depuis cette Mind Map comme expliqué dans la vidéo ci-dessous :
+Le plugin [Obsidian Enhancing Mind Map](obsidian://show-plugin?id=obsidian-enhancing-mindmap) permet de visualiser le contenu d'une `note.md` sous la forme graphique d'une carte heuristique et également d'éditer ce contenu depuis cette Mind Map comme expliqué dans la vidéo ci-dessous :
 
 >[!quote]- [João - Le MindMappeur](https://www.youtube.com/c/LeMindMappeur)
 ><center><figure><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NIFeiwnQpGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure></center>
@@ -38,7 +38,7 @@ https://www.amalo-recrutement.fr/blog/kanban/
 
 https://organisologie.com/comment-sorganiser/comment-atteindre-ses-objectifs/plan-action/methode-kanban-toyota-contenu/
 -->
->[!quote]- [João - Le MindMappeur](https://www.youtube.com/c/LeMindMappeur)
+>[!quote]+ [João - Le MindMappeur](https://www.youtube.com/c/LeMindMappeur)
 
 ><center><figure><iframe width="560" height="315" src="https://www.youtube.com/embed/PSo2XkKHpWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure></center>
 
@@ -47,9 +47,7 @@ A venir...
 Mises en bouche en attendant plus de retour d'expérience :
 
 >[!quote]- [João - Le MindMappeur](https://www.youtube.com/c/LeMindMappeur)
-
 ><center><figure><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LPxyEJeVsPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure></center>
-
 
 ><center><figure><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-Fd1y0Is4wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure></center>
 

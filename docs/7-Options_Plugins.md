@@ -1,25 +1,27 @@
 # Options & Plugins
 
-A venir...
+Le menu `Paramètres` d'Obsidian (la roue dentée), donne accès à l'activation de nombreuses options et modules complémentaires.
 
 ## Options
 
 - Correcteur orthographique
+![[Option-Correcteur_Orthographique.png]]
 
 ## Modules
-
 
 ### Plugins d'Obsidian
 
 Les modules principaux recouvrent des fonctionnalités intégrées dès l'installation d'Obsidian mais qu'il faut généralement activer pour en bénéficier ou alors désactiver...  
 
-#### [Diapositives](https://ericecmorlaix.github.io/adn-Tutoriel_Obsidian/6a-Exports/#diaporama-basique)
+#### Diapositives
+
+Ce module permet de réaliser des présentations de type [diaporama basique](https://ericecmorlaix.github.io/adn-Tutoriel_Obsidian/6a-Exports/#diaporama-basique) en utilisant le code MarkDown `---` de ligne horizontale pour séparer les diapositives.
 
 #### Canvas
 
 [Canvas](https://obsidian.md/canvas) est le tout dernier plugin ajouté à Obsidian pour tous depuis la [version 1.1.8 pour Desktop](https://forum.obsidian.md/t/obsidian-release-v1-1/50112) (mais il n'est pas encore disponible sur la version mobile).
 
-Il ajoute un nouveau format de fichier `canvas.JSON` pour une visualisation graphique de cartes, des cadres colorés possiblement reliés entre eux, dans lesquels vous pouvez afficher du texte enrichi au format HTML (MarkDown, LaTeX) avec des hyperliens ou le contenu des `note.md` et autre fichier image, audio, vidéo, ou pdf de votre coffre ou des contenus disponibles sur le web... Trouvez une démonstration vidéo de tous les trucs à cette adresse : [https://obsidian.md/canvas#protips](https://obsidian.md/canvas#protips)
+Il ajoute un nouveau format de fichier `canvas.JSON` pour une visualisation graphique de cartes, des cadres colorés possiblement reliés entre eux, dans lesquels vous pouvez afficher du texte enrichi au format HTML (MarkDown, LaTeX) avec des hyperliens ou le contenu des `note.md` et autre fichier image, audio, vidéo, ou pdf de votre coffre ou des contenus disponibles sur le web... Trouvez une démonstration vidéo de toutes les astuces à cette adresse : [https://obsidian.md/canvas#protips](https://obsidian.md/canvas#protips)
 
 Canvas est une excellente solution pour réaliser des Maps of Content (MoC) graphiques (index de notes, carte heuristique, dessin enrichi de liens, ...) centrées sur un sujet, une question, un centre d'intérêt ou un projet en particulier, et ainsi permettre, tel un routeur (hub), de naviguer plus facilement dans votre second cerveau numérique.
 
@@ -53,6 +55,8 @@ ___
 
 Les [modules complémentaires](https://help.obsidian.md/Advanced+topics/Community+plugins) ajoutent à Obsidian des fonctionnalités développées par la communauté et qui impliquent une installation et une activation supplémentaires...
 
+> Une connexion internet est nécessaire pour l'installation de ces modules. 
+
 #### Escalidraw
 
 [Lien dans Obsidian](obsidian://show-plugin?id=obsidian-excalidraw-plugin)
@@ -69,5 +73,6 @@ Les [modules complémentaires](https://help.obsidian.md/Advanced+topics/Communit
 
 Permet d'avoir un aperçu des images, vidéos et autres fichiers intégrés en mode édition de code source.
 
-#### [Kaban]()
+#### [Kaban](https://ericecmorlaix.github.io/adn-Tutoriel_Obsidian/5-Projets/#kanban)
+
 #### Projects
