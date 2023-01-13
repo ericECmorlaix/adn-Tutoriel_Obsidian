@@ -39,7 +39,7 @@ https://www.amalo-recrutement.fr/blog/kanban/
 https://organisologie.com/comment-sorganiser/comment-atteindre-ses-objectifs/plan-action/methode-kanban-toyota-contenu/
 -->
 
-Le module complémentaire Kanban permet de transformer un fichier `note.md` d'Obsidian en un tableau pour visualiser l'évolution du processus de développement d'un projet...
+Le module complémentaire Kanban permet de transformer un fichier `note.md` d'Obsidian en un tableau de tâches pour visualiser l'évolution du processus de développement d'un projet...
 
 >[!quote]+ [João - Le MindMappeur](https://www.youtube.com/c/LeMindMappeur)
 
