@@ -206,8 +206,49 @@ $$
   - [LaTeX pour l'impatient, 4ème édition, Céline Chevalier, H&K, 2016](https://www.amazon.fr/LaTeX-pour-limpatient-Spiral-Bound/dp/235141327X/ref=as_li_ss_tl?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=latex%2Bpour%2Bl%27impatient&qid=1558529880&s=gateway&sr=8-1-fkmrnull&linkCode=ll1&tag=coyote-21&linkId=210710a1380df1e7df1910e0bc63f40a&language=fr_FR)
 
 
-## [Diagrammes](https://help.obsidian.md/How+to/Format+your+notes#Diagram)
+## Diagrammes avec Mermaid
 
+[Cf. documentation obsidian : Diagrammes](https://help.obsidian.md/How+to/Format+your+notes#Diagram "Aide officielle sur les diagrammes")
+
+Obsidian utilise la bibliothèque JavaScript [Mermaid.js]() pour générer l'affichage de diagrammes à partir des instructions d'un bloc de code spécifique.
+
+Par exemple :
+````md
+```mermaid
+graph TD;
+    A((A)) --- B((B));
+    A --- C((C));
+    B --- D((D));
+    B --- E( );
+    D --- F((F));
+    D --- G((G));
+    C --- H( );
+    C --- I((I));
+    linkStyle 3 stroke-width:0px;
+    linkStyle 6 stroke-width:0px;
+    style E opacity:0;
+    style H opacity:0;
+```
+````
+
+Produit l'arbre :
+```mermaid
+graph TD;
+    A((A)) --- B((B));
+    A --- C((C));
+    B --- D((D));
+    B --- E( );
+    D --- F((F));
+    D --- G((G));
+    C --- H( );
+    C --- I((I));
+    linkStyle 3 stroke-width:0px;
+    linkStyle 6 stroke-width:0px;
+    style E opacity:0;
+    style H opacity:0;
+```
+
+De nombreux autres [types de graphique](https://mermaid.js.org/intro/) sont possibles et il existe un [éditeur en ligne](https://mermaid.live/)assez pratique...
 
 ## [Intégrations](https://help.obsidian.md/How+to/Embed+files)
 

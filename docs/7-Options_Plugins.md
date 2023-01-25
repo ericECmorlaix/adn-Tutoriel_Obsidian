@@ -29,8 +29,12 @@ Il ajoute un nouveau format de fichier `canvas.JSON` pour une visualisation grap
 
 Canvas est une excellente solution pour réaliser des Maps of Content (MoC) graphiques (index de notes, carte heuristique, dessin enrichi de liens, ...) centrées sur un sujet, une question, un centre d'intérêt ou un projet en particulier, et ainsi permettre, tel un routeur (hub), de naviguer plus facilement dans votre second cerveau numérique.
 
+
 >[!quote]- [Cerveau Numérique Fr](https://cerveau-numerique.fr/)
 ><center><figure><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8nrjJUQmlBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure></center>
+
+>[!quote]- [João - Le MindMappeur](https://www.youtube.com/c/LeMindMappeur)
+><center><figure><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DbWzIq5GYY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></figure></center>
 
 ***
 #### Snippets
