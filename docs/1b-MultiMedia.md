@@ -248,7 +248,8 @@ graph TD;
     style H opacity:0;
 ```
 
-De nombreux autres [types de graphique](https://mermaid.js.org/intro/) sont possibles et il existe un [éditeur en ligne](https://mermaid.live/)assez pratique...
+De nombreux autres [types de graphique](https://mermaid.js.org/intro/) sont possibles et il existe un [éditeur en ligne](https://mermaid.live/)
+assez pratique...
 
 ## [Intégrations](https://help.obsidian.md/How+to/Embed+files)
 
