@@ -259,11 +259,11 @@ assez pratique...
 
 Par exemple, le code HTML :
 ```html
-<iframe src="https://ericecmorlaix.github.io/Toto.html?embed=true" width="798" height="651" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://ericecmorlaix.github.io/Toto.html?embed=true" width="800" height="780" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 ```
 
 permet l'intégration de la page web telle que :
-<iframe src="https://ericecmorlaix.github.io/Toto.html?embed=true" width="798" height="651" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://ericecmorlaix.github.io/Toto.html?embed=true" width="800" height="780" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 qui est un contenu interactif [H5P](https://h5p.org/) généré avec l'[app.lumi.education](https://app.lumi.education/)...
 
