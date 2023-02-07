@@ -251,10 +251,21 @@ graph TD;
 De nombreux autres [types de graphique](https://mermaid.js.org/intro/) sont possibles et il existe un [éditeur en ligne](https://mermaid.live/)
 assez pratique...
 
-## [Intégrations](https://help.obsidian.md/How+to/Embed+files)
+## Intégrations
 
+### iFrame
 
+[Cf. documentation obsidian : Embedding](https://help.obsidian.md/How+to/Embedding+web+pages)
 
+Par exemple, le code HTML :
+```html
+<iframe src="https://ericecmorlaix.github.io/Toto.html?embed=true" width="798" height="651" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+```
+
+permet l'intégration de la page web telle que :
+<iframe src="https://ericecmorlaix.github.io/Toto.html?embed=true" width="798" height="651" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+qui est un contenu interactif [H5P](https://h5p.org/) généré avec l'[app.lumi.education](https://app.lumi.education/)...
 
 ### Notes
 
@@ -265,11 +276,6 @@ assez pratique...
 
 
 ### Vidéos
-
-
-### iFrame
-
-[iFrame](https://help.obsidian.md/How+to/Embed+files#iframe)
 
 
 ### Pdf
