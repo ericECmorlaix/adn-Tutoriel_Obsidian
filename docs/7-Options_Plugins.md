@@ -23,7 +23,7 @@ Ce module permet de réaliser des présentations de type [diaporama basique](htt
 ***
 #### Canvas
 
-[Canvas](https://obsidian.md/canvas) est le tout dernier plugin ajouté à Obsidian pour tous depuis la [version 1.1.8 pour Desktop](https://forum.obsidian.md/t/obsidian-release-v1-1/50112) (mais il n'est pas encore disponible sur la version mobile).
+[Canvas](https://obsidian.md/canvas) est le tout dernier plugin ajouté à Obsidian pour tous depuis la [version 1.1.8 pour Desktop](https://forum.obsidian.md/t/obsidian-release-v1-1/50112) et maintenant également sur mobile...
 
 Il ajoute un nouveau format de fichier `canvas.JSON` pour une visualisation graphique de cartes, des cadres colorés possiblement reliés entre eux, dans lesquels vous pouvez afficher du texte enrichi au format HTML (MarkDown, LaTeX) avec des hyperliens ou le contenu des `note.md` et autre fichier image, audio, vidéo, ou pdf de votre coffre ou des contenus disponibles sur le web... Trouvez une démonstration vidéo de toutes les astuces à cette adresse : [https://obsidian.md/canvas#protips](https://obsidian.md/canvas#protips)
 
