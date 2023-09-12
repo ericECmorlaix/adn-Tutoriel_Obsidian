@@ -162,9 +162,9 @@ $$
 |        | Code                                                           | Résultat                                                     |
 | ------ | -------------------------------------------------------------- | ------------------------------------------------------------ |
 | Boole  | `$a\oplus b=\bar{a}\cdot b+a\cdot\bar{b}$`                     | $a\oplus b=\bar{a}\cdot b+a\cdot\bar{b}$                     |
-| Force  | $\overrightarrow{F_{(ext \to S)}}$                             | $\overrightarrow{F_{(ext \to S)}}$                           |
+| Force  | `$\overrightarrow{F_{(ext \to S)}}$`                             | $\overrightarrow{F_{(ext \to S)}}$                           |
 | Moment | `$\sum\overrightarrow{M_G(\overrightarrow{F_{(ext \to S)}})}$` | $\sum\overrightarrow{\mathscr M_G(\overrightarrow{F_{(ext \to S)}})}$ |
-| Unité  | `$49,52\;\mathrm{N\!\cdot\!m}$`                                         | $\|\overrightarrow{C_\text{moteur}}\|=49,52\;\mathrm{N\!\cdot\!m}$                                                             |
+| Unité  | `$\|\overrightarrow{C_\text{moteur}}\|=49,52\;\mathrm{N\!\cdot\!m}$`                                         | $\|\overrightarrow{C_\text{moteur}}\|=49,52\;\mathrm{N\!\cdot\!m}$                                                             |
 
 | Nom     |     Code     |   Lettre   |     Code     |   Lettre   |      Code       | Lettre |
 | ------- |:------------:|:----------:|:------------:|:----------:|:---------------:|:---:|
